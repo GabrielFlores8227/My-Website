@@ -1,0 +1,98 @@
+@font-face {
+	font-family: poppins-regular;
+	src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+:root {
+
+	/*colors*/
+	--m-white: white;
+	--m-black: black;
+	--m-green: rgb(78,178,84);
+	--m-gray: rgb(130, 130, 130);
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: poppins-regular;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+img {  
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.global-horizontal-padding {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/*media*/
+
+@media (min-width: 375px) and (min-height: 785px) {
+	h1.global-font-size-controller {
+		font-size: 50px !important;
+	}
+}
+
+@media (min-width: 414px) {
+	h1.global-font-size-controller {
+		font-size: 50px !important;
+	}
+
+	p.global-font-size-controller {
+		font-size: 20px !important;
+	}
+}
+
+@media (min-width: 535px) {
+	h1.global-font-size-controller {
+		font-size: 62px !important;
+	}
+
+	p.global-font-size-controller {
+		font-size: 22px !important;
+	}
+}
+
+@media (min-width: 600px) {
+	.global-horizontal-padding {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	h1.global-font-size-controller {
+		font-size: 65px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.global-horizontal-padding {
+		padding-right: 55px;
+		padding-left: 55px;
+	}
+
+	h1.global-font-size-controller {
+		font-size: 70px !important;
+	}
+
+	p.global-font-size-controller {
+		font-size: 23px !important;
+	}
+}
