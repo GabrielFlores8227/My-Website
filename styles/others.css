@@ -12,7 +12,7 @@
 	padding-bottom: 15px;
 	background-color: var(--m-black);
 	transition: ease-in-out 0.5s;
-	position: absolute;
+	position: fixed;
 	left: 0px;
 }
 

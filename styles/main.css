@@ -1,13 +1,16 @@
+/*section-1*/
 .tLTQwZcFLUHwxkVqXhfH {
 	display: flex;
 	align-items: center;
-	height: 100vh;
+	height: 102vh;
+	max-height: 1000px;
+	min-height: 660px;
 	background-color: var(--m-black);
 	position: relative;
 }
 
 .tLTQwZcFLUHwxkVqXhfH > div:nth-child(1) {
-	transform: translateY(-5%);
+	transform: translateY(-7%);
 	max-width: 650px;
 }
 
@@ -17,7 +20,7 @@
 
 .tLTQwZcFLUHwxkVqXhfH h1 {
 	color: var(--m-white);
-	line-height: 110%;
+	letter-spacing: 1px;
 	font-size: 45px;
 	margin: 8px 0px;
 }
@@ -32,34 +35,104 @@
 	bottom: 50px;
 }
 
+.VHAHQWNnvRpvGFsMrpoL a:hover {
+	color: var(--m-green);
+	background-color: var(--m-white);
+}
+
 .VHAHQWNnvRpvGFsMrpoL a {
 	display: flex;
 	align-items: center;
 	border-radius: 100px;
 	gap: 7px;
+	transition: ease-in-out 0.3s;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: bolder;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	padding: 15px 25px;
 	background-color: var(--m-green);
 	color: white;
 }
 
 .VHAHQWNnvRpvGFsMrpoL a i {
-	font-size: 28px;
+	font-size: 26px;
+}
+
+/*section-2*/
+.XBXhXyftPNDZeumthENH {
+	display: flex;
+	gap: 25px;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background-color: rgb(243,243,243);
+}
+
+.XBXhXyftPNDZeumthENH img {
+	width: 120px;
+	filter: opacity(90%);
+}
+
+/*section-3*/
+.LcucEWGDqrWthWkQohCw {
+	margin-top: 90px;
+}
+
+.ZQcYtzeBbMjueeHpByrR {
+	color: var(--m-gray);
+	margin-bottom: 8px;
+}
+
+.NFNbiPAyGpZFzdwQYmxG {
+	display: grid;
+}
+
+.PwzpkYWTkykFnpvFsTrt:first-child {
+	margin-top: 40px;
+}
+
+.PwzpkYWTkykFnpvFsTrt img{
+	width: 100%;
+}
+
+.BLoAiPNBYePeUXcfznLJ {
+	height: 50px;
+	overflow: hidden;
+}
+
+.XgKBAqyBanoXzVrJKUcX {
+	background-color: var(--m-green);
+	color: white;
+	border-radius: 5px;
+	padding: 7px 10px;
+	margin-top: 5px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.sQetwHJsjWYUmvfsqLbL {
+	margin: 7px 0px;
 }
 
 /*media*/
-@media (min-width: 600px) {
+@media (max-width: 374px) {
+	.tLTQwZcFLUHwxkVqXhfH {
+		height: 780px;
+	}
 
 	.VHAHQWNnvRpvGFsMrpoL a {
-		font-size: 19px;
+		font-size: 14px;
 	}
 
 	.VHAHQWNnvRpvGFsMrpoL a i {
-		font-size: 29px;
+		font-size: 25px;
 	}
 }
 
-
+@media (min-width: 1024px) {
+	.XBXhXyftPNDZeumthENH img {
+		width: 140px;
+	}
+}
