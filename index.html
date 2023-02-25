@@ -122,11 +122,11 @@
 			<!--section-3-->
 			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
 				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">1. Sobre</h3>
-				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">"Tente mover o mundo – o primeiro passo será mover a si mesmo." <br> -Platão</h2>
+				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">"Tente mover o mundo – o primeiro passo será mover a si mesmo." </br> -Platão</h2>
 
 				<div class="NFNbiPAyGpZFzdwQYmxG">
 					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
-						<img src="./assets/images/about/Gabriel Flores.JPG" alt="Gabriel Flores picture">
+						<img src="./assets/images/about/Gabriel Flores.png" alt="Gabriel Flores picture">
 						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">Sobre mim</h3>
 						<div id="OImHFjhIntwJOHxrFMaT" class="BLoAiPNBYePeUXcfznLJ">
 							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -174,9 +174,98 @@
 						}
 					</script>
 				</div>
-
+	
 			</div>
-		
+			
+			<!--section-4-->
+			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
+				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">2. Habilidades</h3>
+				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">Há + de 2 anos estudando e desenvolvendo meus conhecimentos em computação</h2>
+			</div>
+
+			<div class="oVUOEDzpqKHyOQZHJZfP">
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/linux.png" alt="linux logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/bash.png" alt="bash logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/neovim.png" alt="Neovim logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/aws.png" alt="aws logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/python.png" alt="Python logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/mysql.png" alt="Mysql logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/node.png" alt="Node logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/javascript.png" alt="JavaScript logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/html.png" alt="Html logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/css.png" alt="Css logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/flutter.png" alt="Flutter logo">
+				</div>
+				<div class="QQpwCPriBXrqrgrWmiyZ">
+					<img src="./assets/images/skills/dart.png" alt="Dart logo">
+				</div>
+			</div>
+
+			<script charset="utf-8">
+				const slider = document.querySelector(".oVUOEDzpqKHyOQZHJZfP");
+				let isDown = false;
+				let startX;
+				let scrollLeft;
+				let position = 0
+				let left = true
+
+				setInterval(() => {
+					if (!isDown) {
+						if (left) position = slider.scrollLeft + 1
+						else position = slider.scrollLeft - 1
+						
+						if (position >= slider.scrollWidth - slider.clientWidth) left = false
+						if (position <= 1) left = true
+
+						slider.scrollTo(position, 0)
+					}
+				}, 10)
+
+				slider.addEventListener('mousedown', (e) => {
+					isDown = true;
+					slider.classList.add('active');
+					startX = e.pageX - slider.offsetLeft;
+					scrollLeft = slider.scrollLeft;
+				});
+				slider.addEventListener('mouseleave', () => {
+					isDown = false;
+					slider.classList.remove('active');
+				});
+				slider.addEventListener('mouseup', () => {
+					isDown = false;
+					slider.classList.remove('active');
+				});
+				slider.addEventListener('mousemove', (e) => {
+					if(!isDown) return;
+					e.preventDefault();
+					const x = e.pageX - slider.offsetLeft;
+					const walk = (x - startX); //scroll-fast
+					slider.scrollLeft = scrollLeft - walk;
+					position = slider.scrollLeft
+				});
+			</script>
+
 		</main>
 	</body>
 </html>

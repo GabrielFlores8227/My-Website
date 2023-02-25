@@ -95,6 +95,10 @@
 	gap: 40px;
 }
 
+.PwzpkYWTkykFnpvFsTrt:nth-child(1) img {
+	transform: scaleX(-1);
+}
+
 .PwzpkYWTkykFnpvFsTrt img{
 	width: 100%;
 	object-fit: cover;
@@ -124,6 +128,27 @@
 
 .sQetwHJsjWYUmvfsqLbL {
 	margin: 7px 0px;
+}
+
+/*section-4*/
+.oVUOEDzpqKHyOQZHJZfP {
+	display: flex;
+	gap: 10px;
+	overflow: hidden;
+}
+
+.QQpwCPriBXrqrgrWmiyZ {
+	padding: 10px 30px;
+}
+
+.QQpwCPriBXrqrgrWmiyZ {
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.QQpwCPriBXrqrgrWmiyZ img {
+	height: 120px;
+	border-radius: 7px;
 }
 
 /*media*/
@@ -169,5 +194,9 @@
 
 	.PwzpkYWTkykFnpvFsTrt img {
 		height: 55%;
+	}
+
+	.LcucEWGDqrWthWkQohCw {
+		margin-top: 130px;
 	}
 }
