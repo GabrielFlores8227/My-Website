@@ -30,29 +30,18 @@
 				<i class="fa-solid fa-bars"></i>
 			</button>
 
-			<script charset="utf-8">
-				let $ = false
-				window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").addEventListener("click", () => {
-					window.document.querySelector(".XfGANijfYvPogncCmjqi").classList.add(`XfGANijfYvPogncCmjqi--${!$}`)
-					window.document.querySelector(".XfGANijfYvPogncCmjqi").classList.remove(`XfGANijfYvPogncCmjqi--${$}`)
-					window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").classList.add(`NMCWMikyCrQzEtWAkqMn--${!$}`)
-					window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").classList.remove(`NMCWMikyCrQzEtWAkqMn--${$}`)
-					$ = !$
-				})
-			</script>
-
 			<ul class="MdRkquYsfpPBMQgGavHK">
 				<li>
-					<a href="#" target="#">1. Sobre</a>
+					<a href="#" target="">1. Sobre</a>
 				</li>
 				<li>
-					<a href="#" target="#">2. Habilidades</a>
+					<a href="#" target="">2. Habilidades</a>
 				</li>
 				<li>
-					<a href="#" target="#">3. Projetos</a>
+					<a href="#" target="">3. Projetos</a>
 				</li>
 				<li>
-					<a href="#" target="#">Currículo</a>
+					<a href="#" target="">Currículo</a>
 				</li>
 			</ul>
 
@@ -61,19 +50,41 @@
 		<div class="global-horizontal-padding XfGANijfYvPogncCmjqi XfGANijfYvPogncCmjqi--false">
 			<ul>
 				<li>
-					<a href="#" target="#">1. Sobre</a>
+					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target="">1. Sobre</a>
 				</li>
 				<li>
-					<a href="#" target="#">2. Habilidades</a>
+					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target="">2. Habilidades</a>
 				</li>
 				<li>
-					<a href="#" target="#">3. Projetos</a>
+					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target="">3. Projetos</a>
 				</li>
 				<li>
-					<a href="#" target="#"><i class="fa-solid fa-download"></i> Currículo</a>
+					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target=""><i class="fa-solid fa-download"></i> Currículo</a>
 				</li>
 			</ul>
 		</div>
+
+		<script charset="utf-8">
+			let $ = false
+			window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").addEventListener("click", () => {
+				handle_drawer()
+			})
+
+			const drawer_links = window.document.querySelectorAll(".HFEwvOOFtwYRNUjPhcUL")
+			for (let c = 0; c < drawer_links.length; c++) {
+				drawer_links[c].addEventListener("click", () => {
+					handle_drawer()
+				})
+			}
+
+			function handle_drawer () {
+				window.document.querySelector(".XfGANijfYvPogncCmjqi").classList.add(`XfGANijfYvPogncCmjqi--${!$}`)
+				window.document.querySelector(".XfGANijfYvPogncCmjqi").classList.remove(`XfGANijfYvPogncCmjqi--${$}`)
+				window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").classList.add(`NMCWMikyCrQzEtWAkqMn--${!$}`)
+				window.document.querySelector(".NMCWMikyCrQzEtWAkqMn").classList.remove(`NMCWMikyCrQzEtWAkqMn--${$}`)
+				$ = !$
+			}
+		</script>
 
 		<main>
 
@@ -110,22 +121,59 @@
 
 			<!--section-3-->
 			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
+				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">1. Sobre</h3>
+				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">"Tente mover o mundo – o primeiro passo será mover a si mesmo." <br> -Platão</h2>
 
-						<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">1. Sobre</h3>
-						<h2 class="global-font-size-controller">"Tente mover o mundo – o primeiro passo será mover a si mesmo."</h2>
-
-						<div class="NFNbiPAyGpZFzdwQYmxG">
-
-							<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
-								<img src="./assets/images/about/Gabriel Flores.JPG" alt="Gabriel Flores picture">
-								<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">Lorem</h3>
-								<div class="BLoAiPNBYePeUXcfznLJ">
-									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-								</div>
-								<button class="XgKBAqyBanoXzVrJKUcX">Read more +</button>
-							</div>
-
+				<div class="NFNbiPAyGpZFzdwQYmxG">
+					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
+						<img src="./assets/images/about/Gabriel Flores.JPG" alt="Gabriel Flores picture">
+						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">Sobre mim</h3>
+						<div id="OImHFjhIntwJOHxrFMaT" class="BLoAiPNBYePeUXcfznLJ">
+							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 						</div>
+						<button class="XgKBAqyBanoXzVrJKUcX">Ler mais +</button>
+					</div>
+
+					<hr>
+
+					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
+						<img src="./assets/images/about/Uniso.png" alt="Uniso picture">
+						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">Faculdade</h3>
+						<div id="qlOKvnkqoQuIpbbdAzDx" class="BLoAiPNBYePeUXcfznLJ">
+							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+						</div>
+						<button class="XgKBAqyBanoXzVrJKUcX">Ler mais +</button>
+					</div>
+
+					<hr>
+
+					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
+						<img src="./assets/images/about/Carrer.png" alt="Carrer picture">
+						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">Carreira</h3>
+						<div id="YtnfyxlmuNLOTFsfsCjY" class="BLoAiPNBYePeUXcfznLJ">
+							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+						</div>
+						<button class="XgKBAqyBanoXzVrJKUcX">Ler mais +</button>
+					</div>
+
+					<script charset="utf-8">
+						const about_cards = window.document.querySelectorAll("div.PwzpkYWTkykFnpvFsTrt > button.XgKBAqyBanoXzVrJKUcX")
+						for(let c = 0; c < about_cards.length; c++) {
+							about_cards[c].addEventListener("click", e => {
+								const div_id = e.target.parentElement.children[2].id
+								const div_height = window.document.querySelector(`#${div_id}`).clientHeight
+								const text_height = window.document.querySelector(`#${div_id} p`).clientHeight
+								if (div_height === 50) {
+									window.document.querySelector(`#${div_id}`).style.height = `${text_height}px`
+									e.srcElement.innerText = "Ler menos -"
+								} else {
+									window.document.querySelector(`#${div_id}`).style.height = "50px"
+									e.srcElement.innerText = "Ler mais +"
+								}
+							})
+						}
+					</script>
+				</div>
 
 			</div>
 		

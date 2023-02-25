@@ -12,7 +12,6 @@
 	--m-gray: rgb(130, 130, 130);
 }
 
-/*
 ::-webkit-scrollbar {
 	border-radius: 100px;
 }
@@ -23,7 +22,6 @@
 	border: 3px solid var(--m-white);
 	background-color: var(--m-gray);
 }
-*/
 
 * {
 	padding: 0px;
@@ -32,8 +30,9 @@
 	font-family: poppins-regular;
 }
 
-main {
+body {
 	min-width: 300px;
+	height: 1000vh;
 }
 
 ul, ol {
@@ -69,7 +68,7 @@ button {
 }
 
 h2.global-font-size-controller {
-	font-size: 30px;
+	font-size: 32px;
 }
 
 h3.global-font-size-controller {
@@ -77,12 +76,6 @@ h3.global-font-size-controller {
 }
 
 /*media*/
-@media (max-width: 374px) {
-	p.global-font-size-controller {
-		font-size: 16px !important;
-	}
-}
-
 @media (min-width: 375px) and (min-height: 785px) {
 	h1.global-font-size-controller {
 		font-size: 50px !important;
@@ -104,16 +97,23 @@ h3.global-font-size-controller {
 	h1.global-font-size-controller {
 		font-size: 58px !important;
 	}
+
+	h2.global-font-size-controller {
+		font-size: 35px;
+	}
+
+	h3.global-font-size-controller {
+		font-size: 25px;
+	}
 }
 
 @media (min-width: 767px) {
-	.global-horizontal-padding {
-		padding-right: 55px;
-		padding-left: 55px;
-	}
-
 	h1.global-font-size-controller {
 		font-size: 62px !important;
+	}
+
+	h2.global-font-size-controller {
+		font-size: 38px;
 	}
 
 	p.global-font-size-controller {
