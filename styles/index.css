@@ -136,4 +136,8 @@ h3.global-font-size-controller {
 	h1.global-font-size-controller {
 		font-size: 65px !important;
 	}
+
+	h2.global-font-size-controller {
+		font-size: 40px;
+	}
 }
