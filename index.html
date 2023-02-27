@@ -6,13 +6,14 @@
 		<title>Gabriel Flores</title>
 
 		<!--icon-->
-		<link rel="shortcut icon" href="./assets/images/icon/icon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="./assets/images/icon/green-icon.png" type="image/x-icon">
 
 		<!--css-->
 		<link rel="stylesheet" href="./styles/index.css">
 		<link rel="stylesheet" href="./styles/header.css">
 		<link rel="stylesheet" href="./styles/others.css">
 		<link rel="stylesheet" href="./styles/main.css">
+		<link rel="stylesheet" href="./styles/footer.css">
 
 		<!--font-awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +23,7 @@
 		<header class="global-horizontal-padding">
 
 			<div class="KvTdiEJHxamRKgdprDKT">
-				<img src="./assets/images/icon/icon.png" alt="Gabriel Flores icon">
+				<img src="./assets/images/icon/green-icon.png" alt="Gabriel Flores icon">
 			</div>
 
 
@@ -41,11 +42,29 @@
 					<a href="#" target="">3. Meus Projetos</a>
 				</li>
 				<li>
+					<a href="#" target="">4. Próximo</a>
+				</li>
+				<li>
 					<a href="#" target="">Currículo</a>
 				</li>
 			</ul>
 
 		</header>
+
+		<script charset="utf-8">
+			let last_scroll_position = 0
+			window.document.addEventListener("scroll", () => {
+				let scroll_position = this.scrollY
+
+				if (window.innerWidth >= 910) {
+					if (scroll_position > last_scroll_position) window.document.querySelector("header").style.transform = "translateY(-100%)"
+					else window.document.querySelector("header").style.transform = "translateY(0%)"
+				} else window.document.querySelector("header").style.transform = "translateY(0%)"
+
+				last_scroll_position = scroll_position
+
+			})
+		</script>
 
 		<div class="global-horizontal-padding XfGANijfYvPogncCmjqi XfGANijfYvPogncCmjqi--false">
 			<ul>
@@ -57,6 +76,9 @@
 				</li>
 				<li>
 					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target="">3. Meus Projetos</a>
+				</li>
+				<li>
+					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target="">4. Próximo</a>
 				</li>
 				<li>
 					<a class="HFEwvOOFtwYRNUjPhcUL" href="#" target=""><i class="fa-solid fa-download"></i> Currículo</a>
@@ -88,7 +110,6 @@
 
 		<main>
 
-			<!--section-1-->
 			<div class="global-horizontal-padding tLTQwZcFLUHwxkVqXhfH">
 				<div>
 					<p class="global-font-size-controller">Olá, me chamo</p>
@@ -96,30 +117,28 @@
 					<p class="global-font-size-controller">aorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
 				</div>
 				<div class="VHAHQWNnvRpvGFsMrpoL">
-						<a href="#" target="_blank">
+					<a href="https://wa.me/5515997752074" target="_blank">
 						<i class="fa-brands fa-whatsapp"></i>
 						Vamos conversar
 					</a>
 				</div>
 			</div>
 
-			<!--section-2-->
 			<div class="global-horizontal-padding XBXhXyftPNDZeumthENH">
-				<a href="#" target="#">
+				<a href="mailto:jgdaflores184186@hotmail.com?subject=Olá!" target="_blank">
 					<img src="./assets/images/social-media/outlook.png" alt="Outlook logo">
 				</a>
-				<a href="#" target="#">
+				<a href="https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/" target="_blank">
 					<img src="./assets/images/social-media/linkedin.png" alt="LikedIn logo">
 				</a>
-				<a href="#" target="#">
+				<a href="https://github.com/GabrielFlores8227" target="_blank">
 					<img src="./assets/images/social-media/github.png" alt="Github logo">
 				</a>
-				<a href="#" target="#">
+				<a href="https://wa.me/5515997752074" target="_blank">
 					<img src="./assets/images/social-media/whatsapp.png" alt="Whatsapp logo">
 				</a>
 			</div>
 
-			<!--section-3-->
 			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
 				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">1. Sobre</h3>
 				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">"Tente mover o mundo – o primeiro passo será mover a si mesmo." -Platão</h2>
@@ -177,96 +196,138 @@
 	
 			</div>
 			
-			<!--section-4-->
 			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
 				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">2. Habilidades</h3>
 				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">Há + de 2 anos estudando e desenvolvendo meus conhecimentos em computação</h2>
 			</div>
 
-			<div class="oVUOEDzpqKHyOQZHJZfP">
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/linux.png" alt="linux logo">
+			<div class="iJauBXvjMqQExDiJmpWN">
+				<div class="oVUOEDzpqKHyOQZHJZfP">
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/mysql.png" alt="Mysql logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/linux.png" alt="linux logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/bash.png" alt="bash logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/neovim.png" alt="Neovim logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/aws.png" alt="aws logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/python.png" alt="Python logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/node.png" alt="Node logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/javascript.png" alt="JavaScript logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/html.png" alt="Html logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/css.png" alt="Css logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/flutter.png" alt="Flutter logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/dart.png" alt="Dart logo">
+					</div>
 				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/bash.png" alt="bash logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/neovim.png" alt="Neovim logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/aws.png" alt="aws logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/python.png" alt="Python logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/mysql.png" alt="Mysql logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/node.png" alt="Node logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/javascript.png" alt="JavaScript logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/html.png" alt="Html logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/css.png" alt="Css logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/flutter.png" alt="Flutter logo">
-				</div>
-				<div class="QQpwCPriBXrqrgrWmiyZ">
-					<img src="./assets/images/skills/dart.png" alt="Dart logo">
+
+				<div class="oVUOEDzpqKHyOQZHJZfP">
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/dart.png" alt="Dart logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/flutter.png" alt="Flutter logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/css.png" alt="Css logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/html.png" alt="Html logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/javascript.png" alt="JavaScript logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/node.png" alt="Node logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/python.png" alt="Python logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/aws.png" alt="aws logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/neovim.png" alt="Neovim logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/bash.png" alt="bash logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/linux.png" alt="linux logo">
+					</div>
+					<div class="QQpwCPriBXrqrgrWmiyZ">
+						<img src="./assets/images/skills/mysql.png" alt="Mysql logo">
+					</div>
 				</div>
 			</div>
 
 			<script charset="utf-8">
-				const slider = document.querySelector(".oVUOEDzpqKHyOQZHJZfP");
-				let isDown = false;
-				let startX;
-				let scrollLeft;
-				let position = 0
-				let left = true
+				const slider = document.querySelectorAll(".oVUOEDzpqKHyOQZHJZfP");
+				
+				for (let c = 0; c < slider.length; c++) {
+					let isDown = false
+					let startX
+					let position
+					let left
+					let scrollLeft
 
-				setInterval(() => {
-					if (!isDown) {
-						if (left) position = slider.scrollLeft + 1
-						else position = slider.scrollLeft - 1
-						
-						if (position >= slider.scrollWidth - slider.clientWidth) left = false
-						if (position <= 1) left = true
+					setInterval(() => {
+						if (!isDown) {
+							if (position >= slider[c].scrollWidth - slider[c].clientWidth) left = false
+							if (position <= 1) left = true
 
-						slider.scrollTo(position, 0)
-					}
-				}, 10)
+							if (left) position = slider[c].scrollLeft + 1
+							else position = slider[c].scrollLeft - 1
 
-				slider.addEventListener('mousedown', (e) => {
-					isDown = true;
-					slider.classList.add('active');
-					startX = e.pageX - slider.offsetLeft;
-					scrollLeft = slider.scrollLeft;
-				});
-				slider.addEventListener('mouseleave', () => {
-					isDown = false;
-					slider.classList.remove('active');
-				});
-				slider.addEventListener('mouseup', () => {
-					isDown = false;
-					slider.classList.remove('active');
-				});
-				slider.addEventListener('mousemove', (e) => {
-					if(!isDown) return;
-					e.preventDefault();
-					const x = e.pageX - slider.offsetLeft;
-					const walk = (x - startX); //scroll-fast
-					slider.scrollLeft = scrollLeft - walk;
-					position = slider.scrollLeft
-				});
+							slider[c].scrollTo(position, 0)
+						}
+					}, 10)
+
+					slider[c].addEventListener('mousedown', (e) => {
+						isDown = true
+						slider[c].classList.add('active')
+						startX = e.pageX - slider[c].offsetLeft
+						scrollLeft = slider[c].scrollLeft
+					})
+					slider[c].addEventListener('mouseleave', () => {
+						isDown = false
+						slider[c].classList.remove('active')
+					})
+					slider[c].addEventListener('mouseup', () => {
+						isDown = false
+						slider[c].classList.remove('active')
+					})
+					slider[c].addEventListener('mousemove', (e) => {
+						if(!isDown) return
+						e.preventDefault()
+						const x = e.pageX - slider[c].offsetLeft
+						const walk = (x - startX); //scroll-fast
+						slider[c].scrollLeft = scrollLeft - walk
+						position = slider[c].scrollLeft
+					})
+				}
 			</script>
 
-			<!--section-5-->
 			<div class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
 				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">3. Meus Projetos</h3>
 				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">Tenho como meta criar e desenvolver projetos que possam ajudar e auxiliar pessoas</h2>
@@ -280,5 +341,26 @@
 			</div>
 
 		</main>
+
+		<footer class="global-horizontal-padding">
+			<h3 class="global-font-size-controller">4. Próximo</h3>
+			<h2 class="global-font-size-controller">Entre em Contato</h2>
+			<div class="qpbiBMhwzitBbZycXqXd">
+				<p>Estou aberto a oportunidades, minha caixa de entrada está sempre aberta. Se você tem uma pergunta ou apenas quer dizer oi, ficarei feliz em responde-lo!</p>
+			</div>
+			<div class="XqBwxqkYEnqKJzXWYXVt">
+				<div class="PgofLKfmfpAXMhVorPAt">
+					<a href="https://wa.me/5515997752074" target="_blank">
+						<i class="fa-brands fa-whatsapp"></i>
+						Vamos conversar
+					</a>
+				</div>
+			</div>
+			<div class="zpiNJTcwmytJogfxiJVA">
+				<p>Design desenvolvido por Gabriel Flores & Pedro Mattos</p>
+				<p>Código desenvolvido por Gabriel Flores</p>
+			</div>
+		</footer>
+
 	</body>
 </html>

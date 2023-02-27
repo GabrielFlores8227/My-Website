@@ -5,13 +5,15 @@ header {
 	align-items: center;
 	width: 100%;
 	min-width: 300px;
+	transition: ease-in-out 0.3s;
 	padding: 25px 0px;
 	background-color: var(--m-black);
 	position: fixed;
+	top: 0px;
 }
 
 .KvTdiEJHxamRKgdprDKT {
-	width: 43px;
+	width: 46px;
 }
 
 .KvTdiEJHxamRKgdprDKT > img {
@@ -81,11 +83,7 @@ header {
 }
 
 /*media*/
-@media (min-width: 750px) {
-	.KvTdiEJHxamRKgdprDKT {
-		width: 50px;
-	}
-
+@media (min-width: 910px) {
 	.NMCWMikyCrQzEtWAkqMn {
 		display: none;
 	}

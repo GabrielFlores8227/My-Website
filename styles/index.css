@@ -32,7 +32,6 @@
 
 body {
 	min-width: 300px;
-	height: 1000vh;
 }
 
 ul, ol {
@@ -41,6 +40,7 @@ ul, ol {
 
 h1, h2, h3, h4, h5 {
 	line-height: 110%;
+	letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, p {
