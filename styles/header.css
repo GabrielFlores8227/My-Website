@@ -5,7 +5,7 @@ header {
 	align-items: center;
 	width: 100%;
 	min-width: 300px;
-	transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.2s;
 	padding: 25px 0px;
 	background-color: var(--m-black);
 	position: fixed;
@@ -30,7 +30,7 @@ header {
 
 .NMCWMikyCrQzEtWAkqMn {
 	font-size: 20px;
-	transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.2s;
 	border-radius: 5px;
 	padding: 10px 15px;
 	color: var(--m-white);
@@ -54,7 +54,7 @@ header {
 	content: "";
 	width: 0%;
 	height: 3px;
-	transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.2s;
 	background-color: var(--m-green);
 	position: absolute;
 	bottom: 0px;
@@ -76,7 +76,7 @@ header {
 	display: inline-block;
 	border: 2px solid var(--m-green);
 	border-radius: 5px;
-	transition: ease-in-out 0.3s;
+	transition: ease-in-out 0.2s;
 	padding: 7px 10px;
 	color: var(--m-green);
 	text-decoration: none;
