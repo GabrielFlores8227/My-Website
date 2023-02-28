@@ -32,7 +32,7 @@
 
 .VHAHQWNnvRpvGFsMrpoL {
 	position: absolute;
-	bottom: 70px;
+	bottom: 63px;
 }
 
 .VHAHQWNnvRpvGFsMrpoL a:hover {
@@ -132,10 +132,14 @@
 	margin-top: 30px;
 }
 
+.oVUOEDzpqKHyOQZHJZfP::-webkit-scrollbar {
+	display: none;
+}
+
 .oVUOEDzpqKHyOQZHJZfP {
 	display: flex;
 	gap: 10px;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .QQpwCPriBXrqrgrWmiyZ {
