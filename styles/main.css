@@ -1,7 +1,7 @@
 .tLTQwZcFLUHwxkVqXhfH {
 	display: flex;
 	align-items: center;
-	height: 102vh;
+	height: 100vh;
 	max-height: 1000px;
 	min-height: 600px;
 	background-color: var(--m-black);
@@ -169,12 +169,6 @@
 }
 
 /*media*/
-@media (pointer:coarse) {
-	.tLTQwZcFLUHwxkVqXhfH {
-		height: 85vh;
-	}
-}
-
 @media (max-width: 374px) {
 	.tLTQwZcFLUHwxkVqXhfH {
 		height: 780px;
