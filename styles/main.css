@@ -8,6 +8,12 @@
 	position: relative;
 }
 
+@media (pointer:coarse) {
+	.tLTQwZcFLUHwxkVqXhfH {
+		height: 96vh;
+	}
+}
+
 .tLTQwZcFLUHwxkVqXhfH > div:nth-child(1) {
 	transform: translateY(-7%);
 	max-width: 650px;
@@ -32,7 +38,7 @@
 
 .VHAHQWNnvRpvGFsMrpoL {
 	position: absolute;
-	bottom: 63px;
+	bottom: 48px;
 }
 
 .VHAHQWNnvRpvGFsMrpoL a:hover {
@@ -169,6 +175,12 @@
 }
 
 /*media*/
+@media (pointer:coarse) {
+	.tLTQwZcFLUHwxkVqXhfH {
+		height: 96vh;
+	}
+}
+
 @media (max-width: 374px) {
 	.tLTQwZcFLUHwxkVqXhfH {
 		height: 780px;
