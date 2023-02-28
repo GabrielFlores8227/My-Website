@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	height: 100vh;
-	max-height: 1000px;
+	max-height: 1100px;
 	min-height: 600px;
 	background-color: var(--m-black);
 	position: relative;
