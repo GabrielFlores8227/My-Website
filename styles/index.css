@@ -47,10 +47,6 @@ h1, h2, h3, h4, h5, p {
 	cursor: default;
 }
 
-h1, h2, h3, h4, h5, p, a {
-	word-break: keep-all;
-}
-
 img {  
 	user-drag: none;
 	-webkit-user-drag: none;
