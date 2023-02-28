@@ -1,4 +1,8 @@
-footer::before {
+footer {
+	padding-top: 190px;
+}
+
+.vfsWXmPMRtnYRbXCvrgG::before {
 	content: "";
 	width: 100%;
 	height: 50px;
@@ -10,11 +14,10 @@ footer::before {
 	left: 0px;
 }
 
-footer {
+.vfsWXmPMRtnYRbXCvrgG {
 	background-color: var(--m-green);
-	padding-top: 90px;
+	padding-top: 110px;
 	padding-bottom: 40px;
-	margin-top: 190px;
 	position: relative;
 }
 
@@ -22,13 +25,13 @@ footer {
 	text-align: center;
 }
 
-footer h3 {
+.vfsWXmPMRtnYRbXCvrgG h3 {
 	text-align: center;
 	transform: scale(90%, 90%);
 	color: white;
 }
 
-footer h2 {
+.vfsWXmPMRtnYRbXCvrgG h2 {
 	text-align: center;
 	color: white;
 	margin-top: 5px;
@@ -91,7 +94,7 @@ footer h2 {
 
 @media (min-width: 1024px) {
 	footer {
-		margin-top: 220px;
+		padding-top: 220px;
 	}
 }
 

@@ -76,9 +76,15 @@ h3.global-font-size-controller {
 }
 
 /*media*/
-@media (min-width: 375px) and (min-height: 785px) {
+@media (min-width: 375px) {
 	h1.global-font-size-controller {
 		font-size: 50px !important;
+	}
+}
+
+@media (min-width: 375px) and (min-height: 812px) {
+	h1.global-font-size-controller {
+		font-size: 55px !important;
 	}
 }
 
@@ -95,7 +101,7 @@ h3.global-font-size-controller {
 	}
 
 	h1.global-font-size-controller {
-		font-size: 58px !important;
+		font-size: 65px !important;
 	}
 
 	h2.global-font-size-controller {
@@ -109,7 +115,7 @@ h3.global-font-size-controller {
 
 @media (min-width: 767px) {
 	h1.global-font-size-controller {
-		font-size: 62px !important;
+		font-size: 70px !important;
 	}
 
 	h2.global-font-size-controller {
@@ -121,20 +127,10 @@ h3.global-font-size-controller {
 	}
 }
 
-@media (min-width: 768px) and (min-height: 1000px) {
-	h1.global-font-size-controller {
-		font-size: 75px !important;
-	}
-}
-
 @media (min-width: 1250px) {
 	.global-horizontal-padding {
 		padding-right: 65px;
 		padding-left: 65px;
-	}
-
-	h1.global-font-size-controller {
-		font-size: 65px !important;
 	}
 
 	h2.global-font-size-controller {
