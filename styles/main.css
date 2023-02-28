@@ -8,12 +8,6 @@
 	position: relative;
 }
 
-@media (pointer:coarse) {
-	.tLTQwZcFLUHwxkVqXhfH {
-		height: 85vh;
-	}
-}
-
 .tLTQwZcFLUHwxkVqXhfH > div:nth-child(1) {
 	transform: translateY(-7%);
 	max-width: 650px;
@@ -177,7 +171,7 @@
 /*media*/
 @media (pointer:coarse) {
 	.tLTQwZcFLUHwxkVqXhfH {
-		height: 96vh;
+		height: 85vh;
 	}
 }
 
