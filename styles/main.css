@@ -170,7 +170,12 @@
 	font-weight: lighter;
 }
 
-/*media*/
+@media only screen and (hover: none) and (pointer: coarse) {
+	.tLTQwZcFLUHwxkVqXhfH {
+		height: 96vh;
+	}
+}
+
 @media (min-width: 350px) {
 	.XBXhXyftPNDZeumthENH {
 		grid-template-columns: auto auto;
