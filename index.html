@@ -216,8 +216,6 @@
 
 					<script charset="utf-8">
 						const about_cards = window.document.querySelectorAll("div.PwzpkYWTkykFnpvFsTrt > button.XgKBAqyBanoXzVrJKUcX")
-						let activated_id = false;
-						let activated_e = false
 						for(let c = 0; c < about_cards.length; c++) {
 							about_cards[c].addEventListener("click", e => {
 								const div_id = e.target.parentElement.children[2].id
@@ -226,15 +224,6 @@
 								if (div_height === 50) {
 									window.document.querySelector(`#${div_id}`).style.height = `${text_height}px`
 									e.srcElement.innerText = "Ler menos -"
-									if (activated_id === false) {
-										activated_id = div_id
-										activated_e = e
-									} else {
-										window.document.querySelector(`#${activated_id}`).style.height = "50px"
-										activated_e.srcElement.innerText = "Ler mais +"									
-										activated_id = div_id
-										activated_e = e
-									}
 								} else {
 									window.document.querySelector(`#${div_id}`).style.height = "50px"
 									e.srcElement.innerText = "Ler mais +"
