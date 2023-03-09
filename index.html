@@ -330,6 +330,12 @@
 							slider[c].scrollTo(position, 0)
 						}
 					}, 10)
+					slider[c].addEventListener('touchmove', () => {
+						isDown = true
+					})
+					slider[c].addEventListener('touchend', () => {
+						isDown = false
+					})
 					slider[c].addEventListener('mousedown', (e) => {
 						isDown = true
 						slider[c].classList.add('active')
