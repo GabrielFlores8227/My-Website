@@ -1,6 +1,29 @@
 <div align="center">
   <img alt="Logo" src="https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/icon/green-icon.png" width="100" />
 </div>
+
 <h1 align="center">
-  [Gabriel Flores](https://www.gabriel-flores.dev/)
+  <a target="_blank" href="https://www.gabriel-flores.dev">
+     Gabriel Flores
+  </a>
 </h1>
+
+![demo](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/others/print-screen.png)
+
+## 🚨 Para Devs
+
+Recentemente, algumas pessoas me perguntaram se poderiam utilizar o código do meu site para criar os próprios sites. 
+A resposta para essa pergunta é sim, desde que sejam feitas as devidas atribuições. Tenho grande respeito pela comunidade open-source 
+e, por isso, deixo meu site disponível para uso legítimo daqueles que pretendem criar seus próprios sites.<br>
+
+Meu site não utiliza nenhum tipo de pacote adicional, portanto, com um simples 'git clone', tudo estará pronto e nenhum tipo de 
+instalação será necessária.
+
+## 🎨 Paleta de Cores
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Green          | `#4eb254` |
+| White          | `#ffffff` |
+| Gray           | `#828282` |
+| Black          | `#000000` |
