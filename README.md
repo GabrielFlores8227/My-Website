@@ -2,12 +2,6 @@
   <img alt="Logo" src="https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/icon/green-icon.png" width="100" />
 </div>
 
-<h1 align="center">
-  <a target="_blank" href="https://www.gabriel-flores.dev">
-     Gabriel Flores
-  </a>
-</h1>
-
 ![demo](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/others/print-screen.png)
 
 ## 🚨 Para Devs
