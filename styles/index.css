@@ -60,6 +60,10 @@ button {
 	cursor: pointer;
 }
 
+a {
+	cursor: pointer;
+}
+
 .global-horizontal-padding {
 	padding-right: 30px;
 	padding-left: 30px;
