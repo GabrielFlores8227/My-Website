@@ -27,3 +27,18 @@ instalação será necessária.
 | White          | `#ffffff` |
 | Gray           | `#828282` |
 | Black          | `#000000` |
+
+## ⭐ Créditos e Inspirações
+
+<ul>
+   <li>
+      <a target="_blank" href="https://github.com/jeznacki/">
+        jeznacki
+      </a>
+  </li>
+  <li>
+      <a target="_blank" href="https://github.com/bchiang7">
+        bchiang7
+      </a>
+  </li>
+</ul>
