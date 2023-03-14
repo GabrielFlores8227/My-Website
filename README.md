@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/icon/green-icon.png" width="100" />
 </div>
 
-[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/print-screen.png)](https://www.gabrielflores.dev/)
+[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/print-screen.png)](https://www.gabriel-flores.dev/)
 
 ## 🚨 Para Devs
 
