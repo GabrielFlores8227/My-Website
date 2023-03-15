@@ -6,6 +6,12 @@
 
 [![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/screen.gif)](https://www.gabriel-flores.dev/)
 
+<div align="center">
+  <a href="https://www.gabriel-flores.dev/">
+     <img alt="Logo" src="https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/screen.gif"/>
+  </a>
+</div>
+
 ## 🚨 Para Devs
 
 Recentemente, algumas pessoas me perguntaram se poderiam utilizar o código do meu site para criar os próprios sites. 
