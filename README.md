@@ -4,7 +4,7 @@
   </a>
 </div>
 
-[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/print-screen.png)](https://www.gabriel-flores.dev/)
+[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/screen.gif)](https://www.gabriel-flores.dev/)
 
 ## 🚨 Para Devs
 
