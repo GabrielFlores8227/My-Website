@@ -4,13 +4,7 @@
   </a>
 </div>
 
-[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/screen.gif)](https://www.gabriel-flores.dev/)
-
-<div align="center">
-  <a href="https://www.gabriel-flores.dev/">
-     <img alt="Logo" src="https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/screen.gif"/>
-  </a>
-</div>
+[![Gabriel Flores](https://github.com/GabrielFlores8227/my-portfolio/blob/main/assets/images/banner/banner.png)](https://www.gabriel-flores.dev/)
 
 ## 🚨 Para Devs
 
