@@ -58,10 +58,12 @@ button {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 
 a {
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .global-horizontal-padding {
