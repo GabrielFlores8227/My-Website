@@ -33,12 +33,10 @@ function getOffset(el) {
       };
 }
 
-
 //-------------------------------------------------------------------------------------------------------------
 
-const about_cards = window.document.querySelectorAll("div.PwzpkYWTkykFnpvFsTrt > button.XgKBAqyBanoXzVrJKUcX")
-for(let c = 0; c < about_cards.length; c++) {
-      about_cards[c].addEventListener("click", e => {
+window.document.querySelectorAll("div.PwzpkYWTkykFnpvFsTrt > button.XgKBAqyBanoXzVrJKUcX").forEach(element => {
+      element.addEventListener("click", e => {
             const div_id = e.target.parentElement.children[2].id
             const div_height = window.document.querySelector(`#${div_id}`).clientHeight
             const text_height = window.document.querySelector(`#${div_id} p`).clientHeight
@@ -50,7 +48,7 @@ for(let c = 0; c < about_cards.length; c++) {
                   e.srcElement.innerText = "Ler mais +"
             }
       })
-}
+})
 
 //-------------------------------------------------------------------------------------------------------------
 
@@ -97,7 +95,7 @@ for (let c = 0; c < slider.length; c++) {
             if(!isDown) return
             e.preventDefault()
             const x = e.pageX - slider[c].offsetLeft
-            const walk = (x - startX); //scroll-fast
+            const walk = (x - startX)
             slider[c].scrollLeft = scrollLeft - walk
             position = slider[c].scrollLeft
       })
