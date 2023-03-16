@@ -37,4 +37,9 @@ instalação será necessária.
         bchiang7
       </a>
   </li>
+   <li>
+      <a target="_blank" href="https://openai.com/blog/chatgpt">
+        ChatGPT
+      </a>
+  </li>
 </ul>
