@@ -4,12 +4,16 @@
 }
 
 :root {
-
-	/*colors*/
 	--m-white: white;
 	--m-black: black;
 	--m-green: rgb(78,178,84);
 	--m-gray: rgb(130, 130, 130);
+}
+
+@-moz-document url-prefix() {
+	:root {
+		--m-green: #03C453;
+	}
 }
 
 ::-webkit-scrollbar {
