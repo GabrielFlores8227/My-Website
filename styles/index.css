@@ -13,13 +13,7 @@
 }
 
 ::-webkit-scrollbar {
-	border-radius: 100px;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 100px;
-	border: 3px solid var(--m-white);
-	background-color: var(--m-gray);
+	display: none;
 }
 
 * {
@@ -27,6 +21,7 @@
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: poppins-regular;
+	scrollbar-width: none;
 }
 
 body {
