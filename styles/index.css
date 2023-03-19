@@ -3,6 +3,11 @@
 	src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+	font-family: poppins-medium;
+	src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
 :root {
 	--m-white: white;
 	--m-black: black;
@@ -26,6 +31,19 @@
 	box-sizing: border-box;
 	font-family: poppins-regular;
 	scrollbar-width: none;
+}
+
+@-moz-document url-prefix() {
+	* {
+		font-family: poppins-medium;
+	}
+}
+
+/* Safari Only */
+@supports selector(:nth-child(1 of x)) {
+	* {
+		font-family: poppins-medium;
+	}
 }
 
 body {
