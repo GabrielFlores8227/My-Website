@@ -39,13 +39,6 @@
 	}
 }
 
-/* Safari Only */
-@supports selector(:nth-child(1 of x)) {
-	* {
-		font-family: poppins-medium;
-	}
-}
-
 body {
 	min-width: 300px;
 }
