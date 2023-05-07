@@ -31,14 +31,27 @@ window.document.querySelectorAll('.XgKBAqyBanoXzVrJKUcX').forEach((element) => {
     const text_height = window.document.querySelector(
       `#${div_id} p`,
     ).clientHeight;
+
     if (div_height === 50) {
       window.document.querySelector(
         `#${div_id}`,
       ).style.height = `${text_height}px`;
-      e.srcElement.innerText = 'Ler menos -';
+      e.srcElement.innerText = 'Mostrar menos -';
     } else {
       window.document.querySelector(`#${div_id}`).style.height = '50px';
-      e.srcElement.innerText = 'Ler mais +';
+      e.srcElement.innerText = 'Mostrar mais +';
+    }
+  });
+
+  element.addEventListener('focusout', (e) => {
+    const div_id = e.target.parentElement.children[2].id;
+    const div_height = window.document.querySelector(`#${div_id}`).clientHeight;
+
+    if (div_height !== 50) {
+      setTimeout(() => {
+        window.document.querySelector(`#${div_id}`).style.height = '50px';
+        e.srcElement.innerText = 'Mostrar mais +';
+      }, 320);
     }
   });
 });
