@@ -68,8 +68,8 @@ function getOffset(el) {
   };
 }
 
-const slider = document.querySelectorAll('.oVUOEDzpqKHyOQZHJZfP');
-for (let c = 0; c < slider.length; c++) {
+const sliderContainer = document.querySelectorAll('.oVUOEDzpqKHyOQZHJZfP');
+for (let c = 0; c < sliderContainer.length; c++) {
   let isDown = false;
   let startX;
   let position;
@@ -78,42 +78,45 @@ for (let c = 0; c < slider.length; c++) {
 
   setInterval(() => {
     if (!isDown) {
-      if (position >= slider[c].scrollWidth - slider[c].clientWidth)
+      if (
+        position >=
+        sliderContainer[c].scrollWidth - sliderContainer[c].clientWidth
+      )
         left = false;
       if (position <= 1) left = true;
 
-      if (left) position = slider[c].scrollLeft + 1;
-      else position = slider[c].scrollLeft - 1;
+      if (left) position = sliderContainer[c].scrollLeft + 1;
+      else position = sliderContainer[c].scrollLeft - 1;
 
-      slider[c].scrollTo(position, 0);
+      sliderContainer[c].scrollTo(position, 0);
     }
   }, 10);
-  slider[c].addEventListener('touchmove', () => {
+  sliderContainer[c].addEventListener('touchmove', () => {
     isDown = true;
   });
-  slider[c].addEventListener('touchend', () => {
+  sliderContainer[c].addEventListener('touchend', () => {
     isDown = false;
   });
-  slider[c].addEventListener('mousedown', (e) => {
+  sliderContainer[c].addEventListener('mousedown', (e) => {
     isDown = true;
-    slider[c].classList.add('active');
-    startX = e.pageX - slider[c].offsetLeft;
-    scrollLeft = slider[c].scrollLeft;
+    sliderContainer[c].classList.add('active');
+    startX = e.pageX - sliderContainer[c].offsetLeft;
+    scrollLeft = sliderContainer[c].scrollLeft;
   });
-  slider[c].addEventListener('mouseleave', () => {
+  sliderContainer[c].addEventListener('mouseleave', () => {
     isDown = false;
-    slider[c].classList.remove('active');
+    sliderContainer[c].classList.remove('active');
   });
-  slider[c].addEventListener('mouseup', () => {
+  sliderContainer[c].addEventListener('mouseup', () => {
     isDown = false;
-    slider[c].classList.remove('active');
+    sliderContainer[c].classList.remove('active');
   });
-  slider[c].addEventListener('mousemove', (e) => {
+  sliderContainer[c].addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
-    const x = e.pageX - slider[c].offsetLeft;
+    const x = e.pageX - sliderContainer[c].offsetLeft;
     const walk = x - startX;
-    slider[c].scrollLeft = scrollLeft - walk;
-    position = slider[c].scrollLeft;
+    sliderContainer[c].scrollLeft = scrollLeft - walk;
+    position = sliderContainer[c].scrollLeft;
   });
 }
