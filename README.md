@@ -6,12 +6,7 @@
 
 [![Gabriel Flores](https://raw.githubusercontent.com/GabrielFlores8227/my-portfolio/main/assets/images/banners/banner%201.png)](https://www.gabriel-flores.dev/)
 
-## 🚨 Para Devs
-
-Meu site não utiliza nenhum tipo de pacote adicional, portanto, com um simples 'git clone', tudo estará pronto e nenhum tipo de 
-instalação será necessária.
-
-## 🎨 Paleta de Cores
+## 🎨 Color palette
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
@@ -20,7 +15,7 @@ instalação será necessária.
 | Gray           | `#828282` |
 | Black          | `#000000` |
 
-## ⭐ Créditos e Inspirações
+## ⭐ Credits and Inspirations
 
 <ul>
    <li>
