@@ -64,7 +64,7 @@
 	gap: 25px;
 	padding-top: 45px;
 	padding-bottom: 45px;
-	background-color: rgb(243,243,243);
+	background-color: rgb(243, 243, 243);
 }
 
 .XBXhXyftPNDZeumthENH a {
@@ -95,11 +95,7 @@
 	gap: 40px;
 }
 
-.PwzpkYWTkykFnpvFsTrt:nth-child(1) img {
-	transform: scaleX(-1);
-}
-
-.PwzpkYWTkykFnpvFsTrt img{
+.PwzpkYWTkykFnpvFsTrt img {
 	width: 100%;
 	object-fit: cover;
 }
@@ -252,4 +248,3 @@
 		padding-top: 160px;
 	}
 }
-
