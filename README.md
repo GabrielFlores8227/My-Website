@@ -14,8 +14,8 @@ My website is the central hub where I showcase my main projects, highlight my fa
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Green          | `#4eb254` |
 | White          | `#ffffff` |
+| Green          | `#4eb254` |
 | Gray           | `#828282` |
 | Black          | `#000000` |
 
