@@ -1,6 +1,7 @@
 header {
+	width: 100%;
 	z-index: 2;
-	position: relative;
+	position: fixed;
 
 	& > div:first-of-type {
 		z-index: 2;
@@ -15,7 +16,7 @@ header {
 
 		& > div:first-of-type {
 			img {
-				height: 41px;
+				height: 42px;
 			}
 		}
 
@@ -43,16 +44,17 @@ header {
 						&:after {
 							content: '';
 							width: 0%;
-							height: 2.1px;
+							height: 2px;
 							background-color: var(--m-green);
 							transition: ease-in-out 0.35s;
 							position: absolute;
 							left: 0px;
-							bottom: 3.5px;
+							bottom: 2.4px;
 						}
 
 						color: var(--m-white);
-						padding: 7px;
+						padding: 3.5px;
+						font-size: 12.6px;
 						transition: ease-in-out 0.35s;
 						position: relative;
 					}
@@ -73,6 +75,7 @@ header {
 					background-color: transparent;
 					border: 2.1px solid var(--m-green);
 					padding: 10.5px 14px;
+					font-size: 12.6px;
 					border-radius: 7px;
 					transition: ease-in-out 0.35s;
 					position: relative;
@@ -122,9 +125,27 @@ header {
 	}
 }
 
+@media (min-width: 768px) {
+	header {
+		& > div:first-of-type {
+			& > div:first-of-type {
+				img {
+					height: 47.6px;
+				}
+			}
+		}
+	}
+}
+
 @media (min-width: 1300px) {
 	header {
 		& > div:first-of-type {
+			& > div:first-of-type {
+				img {
+					height: 28px;
+				}
+			}
+
 			& > button {
 				display: none;
 			}

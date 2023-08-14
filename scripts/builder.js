@@ -14,4 +14,5 @@ import * as modules from './modules.js';
 	}
 
 	modules.buildHeader(req.header);
+	modules.buildMain(req.main);
 })();

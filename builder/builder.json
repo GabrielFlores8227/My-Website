@@ -13,6 +13,15 @@
 					"special": true
 				}
 			]
+		},
+		"main": {
+			"section-1": {
+				"text-1": "Hello, my name is",
+				"text-2": "Gabriel Flores, I'm a Full-Stack Developer",
+				"text-3": "Over 2 years crafting web applications and cloud-based solutions.",
+				"phone-number": "5515997752074",
+				"phone-message": "Hello, let's talk"
+			}
 		}
 	}
 }

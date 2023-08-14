@@ -50,3 +50,21 @@ export function buildHeader(header) {
 		drawer.classList.remove('--on');
 	});
 }
+
+export function buildMain(main) {
+	buildMainSection1(main['section-1']);
+}
+
+function buildMainSection1(section1) {
+	window.document.querySelector('p[text-1]').innerText = section1['text-1'];
+	window.document.querySelector('h1[text-2]').innerText = section1['text-2'];
+	window.document.querySelector('span[text-3]').innerText = section1['text-3'];
+
+	const a = window.document.querySelector('a[phone]');
+
+	a.innerHTML = a.innerHTML + section1['phone-message'];
+	a.setAttribute(
+		'href',
+		`https://wa.me/${section1['phone-number']}?text=${section1['phone-message']}`,
+	);
+}

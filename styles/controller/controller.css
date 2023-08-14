@@ -3,14 +3,93 @@
   padding-left: 41px;
 }
 
-.global-font-size {
+button.global-font-size {
   font-size: 21px;
 }
 
+h1.global-font-size {
+  font-size: 38.5px;
+}
+
+p.global-font-size {
+  font-size: 17.5px;
+}
+
+span.global-font-size {
+  font-size: 17.5px;
+}
+
+@media (min-width: 375px) {
+  h1.global-font-size {
+    font-size: 45.5px;
+  }
+  p.global-font-size {
+    font-size: 21px;
+  }
+}
+@media (min-width: 375px) and (min-height: 812px) {
+  h1.global-font-size {
+    font-size: 51.1px;
+  }
+}
+@media (min-width: 414px) {
+  h1.global-font-size {
+    font-size: 52.5px;
+  }
+}
+@media (min-width: 600px) {
+  .global-hrz-padding {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  h1.global-font-size {
+    font-size: 60.9px;
+  }
+  p.global-font-size {
+    font-size: 24.5px;
+  }
+  span.global-font-size {
+    font-size: 21px;
+  }
+}
+@media (min-width: 768px) {
+  button.global-font-size {
+    font-size: 24.5px;
+  }
+  h1.global-font-size {
+    font-size: 77px;
+  }
+  p.global-font-size {
+    font-size: 28px;
+  }
+  span.global-font-size {
+    font-size: 24.5px;
+  }
+}
+@media (min-width: 1024px) {
+  h1.global-font-size {
+    font-size: 98px;
+  }
+  p.global-font-size {
+    font-size: 35px;
+  }
+  span.global-font-size {
+    font-size: 28px;
+  }
+}
 @media (min-width: 1300px) {
   .global-hrz-padding {
     padding-right: 140px;
     padding-left: 140px;
+  }
+  h1.global-font-size {
+    font-size: 63px;
+  }
+  p.global-font-size {
+    font-size: 21px;
+  }
+  span.global-font-size {
+    font-size: 17.5px;
   }
 }
 @media (min-width: 1700px) {
