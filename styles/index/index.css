@@ -1,0 +1,84 @@
+@font-face {
+  font-family: poppins-regular;
+  src: url(../../assets/fonts/poppins/poppins-regular.ttf);
+}
+@font-face {
+  font-family: poppins-medium;
+  src: url(../../assets/fonts/poppins/poppins-medium.ttf);
+}
+:root {
+  --m-white: white;
+  --m-black: black;
+  --m-green: rgb(78, 178, 84);
+  --m-gray: rgb(130, 130, 130);
+  --regular-font: poppins-regular;
+  --bold-font: poppins-medium;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: var(--regular-font);
+  scrollbar-width: none;
+}
+
+@-moz-document url-prefix() {
+  * {
+    font-family: var(--bold-font);
+  }
+}
+body {
+  min-width: 300px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 110%;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  cursor: default;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */

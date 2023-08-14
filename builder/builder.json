@@ -1,0 +1,13 @@
+{
+	"en": {
+		"header": {
+			"sections": [
+				{ "name": "About", "to": "#" },
+				{ "name": "Skills", "to": "#" },
+				{ "name": "Certificates", "to": "#" },
+				{ "name": "Projects", "to": "#" },
+				{ "name": "Fav Repositories", "to": "#" }
+			]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.global-hrz-padding {
+  padding-right: 41px;
+  padding-left: 41px;
+}
+
+.global-font-size {
+  font-size: 21px;
+}
+
+@media (min-width: 1300px) {
+  .global-hrz-padding {
+    padding-right: 105px;
+    padding-left: 105px;
+  }
+}
+@media (min-width: 1700px) {
+  .global-hrz-padding {
+    padding-right: 280px;
+    padding-left: 280px;
+  }
+}
+
+/*# sourceMappingURL=controller.css.map */
