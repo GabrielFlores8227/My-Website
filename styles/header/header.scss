@@ -28,7 +28,7 @@ header {
 
 			ul {
 				display: flex;
-				gap: 35px;
+				gap: 21px;
 
 				li.--default {
 					&:hover a {
@@ -48,10 +48,11 @@ header {
 							transition: ease-in-out 0.35s;
 							position: absolute;
 							left: 0px;
-							bottom: 0px;
+							bottom: 3.5px;
 						}
 
 						color: var(--m-white);
+						padding: 7px;
 						transition: ease-in-out 0.35s;
 						position: relative;
 					}
@@ -59,6 +60,8 @@ header {
 			}
 
 			li.--special {
+				margin: 0px 7px;
+
 				a {
 					&:hover {
 						background-color: var(--m-green);

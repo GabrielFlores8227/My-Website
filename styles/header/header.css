@@ -24,7 +24,7 @@ header > div:first-of-type > div:last-of-type {
 }
 header > div:first-of-type > div:last-of-type ul {
   display: flex;
-  gap: 35px;
+  gap: 21px;
 }
 header > div:first-of-type > div:last-of-type ul li.--default:hover a {
   color: var(--m-green);
@@ -34,6 +34,7 @@ header > div:first-of-type > div:last-of-type ul li.--default:hover a:after {
 }
 header > div:first-of-type > div:last-of-type ul li.--default a {
   color: var(--m-white);
+  padding: 7px;
   transition: ease-in-out 0.35s;
   position: relative;
 }
@@ -45,7 +46,10 @@ header > div:first-of-type > div:last-of-type ul li.--default a:after {
   transition: ease-in-out 0.35s;
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: 3.5px;
+}
+header > div:first-of-type > div:last-of-type li.--special {
+  margin: 0px 7px;
 }
 header > div:first-of-type > div:last-of-type li.--special a {
   transition: ease-in-out 0.35s;
