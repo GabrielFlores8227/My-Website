@@ -32,6 +32,10 @@
     font-family: var(--bold-font);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 300px;
 }

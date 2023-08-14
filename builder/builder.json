@@ -2,11 +2,16 @@
 	"en": {
 		"header": {
 			"sections": [
-				{ "name": "About", "to": "#" },
-				{ "name": "Skills", "to": "#" },
-				{ "name": "Certificates", "to": "#" },
-				{ "name": "Projects", "to": "#" },
-				{ "name": "Fav Repositories", "to": "#" }
+				{ "name": "About", "to": "#", "special": false },
+				{ "name": "Skills", "to": "#", "special": false },
+				{ "name": "Certificates", "to": "#", "special": false },
+				{ "name": "Projects", "to": "#", "special": false },
+				{ "name": "Fav Repositories", "to": "#", "special": false },
+				{
+					"name": "Resume",
+					"to": "https://onedrive.live.com/embed?resid=A0D4171CD5812D29%216792&authkey=!AHXixJhKI2jwJ2o&em=2",
+					"special": true
+				}
 			]
 		}
 	}

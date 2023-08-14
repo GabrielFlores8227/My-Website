@@ -1,7 +1,9 @@
 header {
 	z-index: 2;
+	position: relative;
 
 	& > div:first-of-type {
+		z-index: 2;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -9,6 +11,7 @@ header {
 		padding-top: 24.5px;
 		padding-bottom: 24.5px;
 		background-color: var(--m-black);
+		position: relative;
 
 		& > div:first-of-type {
 			img {
@@ -27,7 +30,7 @@ header {
 				display: flex;
 				gap: 35px;
 
-				li {
+				li.--default {
 					&:hover a {
 						&:after {
 							width: 100%;
@@ -37,8 +40,6 @@ header {
 					}
 
 					a {
-						transition: ease-in-out 0.35s;
-
 						&:after {
 							content: '';
 							width: 0%;
@@ -50,9 +51,68 @@ header {
 							bottom: 0px;
 						}
 
-						color: white;
+						color: var(--m-white);
+						transition: ease-in-out 0.35s;
 						position: relative;
 					}
+				}
+			}
+
+			li.--special {
+				a {
+					&:hover {
+						background-color: var(--m-green);
+						color: var(--m-white);
+					}
+
+					transition: ease-in-out 0.35s;
+					color: var(--m-green);
+					background-color: transparent;
+					border: 2.1px solid var(--m-green);
+					padding: 10.5px 14px;
+					border-radius: 7px;
+					transition: ease-in-out 0.35s;
+					position: relative;
+				}
+			}
+		}
+	}
+
+	& > div:last-of-type {
+		&.--on {
+			transform: translateY(100%);
+		}
+
+		z-index: 1;
+		width: 100%;
+		padding-bottom: 24.5px;
+		background-color: var(--m-black);
+		transform: translateY(0%);
+		transition: ease-in-out 0.35s;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 17.5px;
+
+			li {
+				&.--special {
+					&::before {
+						font-family: 'Font Awesome 5 Free';
+						font-weight: 900; /* Depending on the icon style you want */
+						content: '\e476'; /* Unicode for the desired icon (e.g., star) */
+						color: var(--m-white);
+						margin-right: 3.5px;
+					}
+				}
+
+				font-weight: bold;
+
+				a {
+					color: var(--m-white);
 				}
 			}
 		}
@@ -69,6 +129,10 @@ header {
 			& > div:last-of-type {
 				display: block;
 			}
+		}
+
+		& > div:last-of-type {
+			display: none;
 		}
 	}
 }
