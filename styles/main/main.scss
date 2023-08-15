@@ -1,6 +1,5 @@
 div.content-section {
 	padding-top: 140px;
-	padding-bottom: 140px;
 
 	h2 {
 		max-width: 700px;
@@ -10,6 +9,12 @@ div.content-section {
 	h3 {
 		color: var(--m-gray);
 		padding-bottom: 10.5px;
+	}
+}
+
+@media (min-width: 1300px) {
+	div.content-section {
+		padding-top: 210px;
 	}
 }
 
@@ -241,11 +246,6 @@ div.section-2 {
 }
 
 @media (min-width: 1300px) {
-	div.content-section {
-		padding-top: 196px;
-		padding-bottom: 196px;
-	}
-
 	div.section-2 {
 		a {
 			width: auto;
@@ -362,6 +362,40 @@ div.section-3 {
 				button {
 					font-size: 14px;
 				}
+			}
+		}
+	}
+}
+
+/*
+section-4
+*/
+
+div.section-4 {
+	& > div {
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		display: flex;
+		align-items: center;
+		gap: 56px;
+		overflow-x: auto;
+		padding: 35px 28px;
+	}
+
+	& > div {
+		img {
+			height: 77px;
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	div.section-4 {
+		& > div {
+			img {
+				height: 105px;
 			}
 		}
 	}

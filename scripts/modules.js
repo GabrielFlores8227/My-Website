@@ -33,7 +33,6 @@ export function buildHeader(header) {
 	const drawerButton = window.document.querySelector(
 		'button[header-drawer--on]',
 	);
-
 	const drawer = window.document.querySelector('div[header-drawer]');
 
 	function openDrawer() {
@@ -71,6 +70,7 @@ export function buildMain(main) {
 	buildMainSection1(main['section-1']);
 	buildMainSection2(main['section-2']);
 	buildMainSection3(main['section-3']);
+	buildMainSection4(main['section-4']);
 }
 
 function buildMainSection1(section1) {
@@ -79,7 +79,6 @@ function buildMainSection1(section1) {
 	window.document.querySelector('span[text-3]').innerText = section1['text-3'];
 
 	const a = window.document.querySelector('a[phone]');
-
 	a.innerHTML = a.innerHTML + section1['phone-message'];
 	a.setAttribute(
 		'href',
@@ -98,7 +97,6 @@ function buildMainSection2(section2) {
 		usableTemplate.setAttribute('href', item.to);
 
 		const img = usableTemplate.querySelector('img');
-
 		img.setAttribute('src', item.image);
 		img.setAttribute('alt', item.name);
 
@@ -107,6 +105,11 @@ function buildMainSection2(section2) {
 }
 
 function buildMainSection3(section3) {
+	const section3Selector = window.document.querySelector('div[section-3]');
+
+	section3Selector.querySelector('h3').innerText = section3.title;
+	section3Selector.querySelector('h2').innerText = section3.text;
+
 	const template = window.document.querySelector('template[about-template]');
 
 	section3.content.forEach((item, index) => {
@@ -125,7 +128,7 @@ function buildMainSection3(section3) {
 
 		p.innerText = item.text;
 
-		const defaultHeight = '70px';
+		const defaultHeight = '50px';
 
 		const button = usableTemplate.querySelector('button');
 
@@ -160,4 +163,101 @@ function buildMainSection3(section3) {
 
 		template.parentNode.append(usableTemplate);
 	});
+}
+
+function buildMainSection4(section4) {
+	const section4Selector = window.document.querySelector('div[section-4]');
+	section4Selector.querySelector('h2').innerText = section4.text;
+	section4Selector.querySelector('h3').innerText = section4.title;
+
+	window.document
+		.querySelectorAll('template[skill-template]')
+		.forEach((template, index) => {
+			if (index % 2 !== 0) {
+				section4.content = section4.content.reverse();
+			}
+
+			for (let c = 0; c < 3; c++) {
+				section4.content.forEach((item) => {
+					const usableTemplate = template.content.cloneNode(true).children[0];
+
+					const img = usableTemplate.querySelector('img');
+
+					img.setAttribute('src', item);
+
+					template.parentNode.append(usableTemplate);
+				});
+			}
+		});
+
+	window.document
+		.querySelectorAll('div[slider-container]')
+		.forEach((sliderContainer) => {
+			let isDown = false;
+			let startX;
+			let position;
+			let left;
+			let scrollLeft;
+			let pause;
+			let timer;
+
+			setInterval(() => {
+				if (isDown) {
+					clearTimeout(timer);
+
+					pause = true;
+
+					timer = setTimeout(() => {
+						pause = false;
+					}, 3500);
+				}
+
+				if (pause) {
+					return;
+				}
+
+				if (
+					position >=
+					sliderContainer.scrollWidth - sliderContainer.clientWidth
+				) {
+					left = false;
+				}
+
+				if (position <= 1) left = true;
+
+				if (left) position = sliderContainer.scrollLeft + 1;
+				else position = sliderContainer.scrollLeft - 1;
+
+				sliderContainer.scrollTo(position, 0);
+			}, 10);
+
+			sliderContainer.addEventListener('touchmove', () => {
+				isDown = true;
+			});
+			sliderContainer.addEventListener('touchend', () => {
+				isDown = false;
+			});
+			sliderContainer.addEventListener('mousedown', (e) => {
+				isDown = true;
+				sliderContainer.classList.add('active');
+				startX = e.pageX - sliderContainer.offsetLeft;
+				scrollLeft = sliderContainer.scrollLeft;
+			});
+			sliderContainer.addEventListener('mouseleave', () => {
+				isDown = false;
+				sliderContainer.classList.remove('active');
+			});
+			sliderContainer.addEventListener('mouseup', () => {
+				isDown = false;
+				sliderContainer.classList.remove('active');
+			});
+			sliderContainer.addEventListener('mousemove', (e) => {
+				if (!isDown) return;
+				e.preventDefault();
+				const x = e.pageX - sliderContainer.offsetLeft;
+				const walk = x - startX;
+				sliderContainer.scrollLeft = scrollLeft - walk;
+				position = sliderContainer.scrollLeft;
+			});
+		});
 }

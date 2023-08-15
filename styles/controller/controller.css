@@ -11,6 +11,10 @@ h1.global-font-size {
   font-size: 38.5px;
 }
 
+h2.global-font-size {
+  font-size: 28px;
+}
+
 h4.global-font-size {
   font-size: 19.6px;
 }

@@ -3,10 +3,10 @@
 		"header": {
 			"sections": [
 				{ "name": "About", "to": "#section-3", "special": false },
-				{ "name": "Skills", "to": "#", "special": false },
-				{ "name": "Certificates", "to": "#", "special": false },
-				{ "name": "Projects", "to": "#", "special": false },
-				{ "name": "Fav. Repositories", "to": "#", "special": false },
+				{ "name": "Skills", "to": "#section-4", "special": false },
+				{ "name": "Certificates", "to": "#section-5", "special": false },
+				{ "name": "Projects", "to": "#section-6", "special": false },
+				{ "name": "Fav. Repositories", "to": "#section-7", "special": false },
 				{
 					"name": "Resume",
 					"to": "https://onedrive.live.com/embed?resid=A0D4171CD5812D29%216792&authkey=!AHXixJhKI2jwJ2o&em=2",
@@ -45,7 +45,8 @@
 				}
 			],
 			"section-3": {
-				"id": "section-3",
+				"title": "1. About",
+				"text": "'To move the world, the first step is to move yourself.' - Plato",
 				"content": [
 					{
 						"image": "./assets/images/about/gabriel-flores.png",
@@ -57,7 +58,7 @@
 					{
 						"image": "./assets/images/about/uniso.png",
 						"title": "College",
-						"text": "I am currently studying Analysis and Systems Development at the University of Sorocaba, and I am in the second semester. I began my formal studies in 2022, and since then, I have had the unique opportunity to develop my skills and abilities by working collaboratively with peers and the university on projects focused on the field of computing.",
+						"text": "I am currently studying Analysis and Systems Development at the University of Sorocaba, and I am in the third semester. I started my formal studies in 2022, and since then, I have had the valuable opportunity to enhance my skills and capabilities through collaborative work with fellow students and the university on computing-focused projects.",
 						"show": "Show more",
 						"hide": "Show less"
 					},
@@ -68,6 +69,23 @@
 						"show": "Show more",
 						"hide": "Show less"
 					}
+				]
+			},
+			"section-4": {
+				"title": "2. Skills",
+				"text": "Studying and developing my knowledge in the field of computer science for over 2 years.",
+				"content": [
+					"./assets/images/skills/linux.png",
+					"./assets/images/skills/bash.png",
+					"./assets/images/skills/nginx.png",
+					"./assets/images/skills/aws.png",
+					"./assets/images/skills/mysql.png",
+					"./assets/images/skills/python.png",
+					"./assets/images/skills/node.png",
+					"./assets/images/skills/typescript.png",
+					"./assets/images/skills/javascript.png",
+					"./assets/images/skills/html.png",
+					"./assets/images/skills/css.png"
 				]
 			}
 		}

@@ -11,12 +11,8 @@
   --m-black: black;
   --m-green: rgb(78, 178, 84);
   --m-gray: rgb(130, 130, 130);
-  --regular-font: poppins-regular;
-  --bold-font: poppins-medium;
-}
-
-::-webkit-scrollbar {
-  display: none;
+  --regular-font: poppins-regular, Arial, Helvetica, sans-serif;
+  --bold-font: poppins-medium, Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -25,6 +21,17 @@
   box-sizing: border-box;
   font-family: var(--regular-font);
   scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  width: 17.5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 70px;
+  border: 4.9px solid white;
+}
+*::-webkit-scrollbar-track {
+  background-color: var(--m-white);
 }
 
 @-moz-document url-prefix() {
