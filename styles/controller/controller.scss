@@ -11,6 +11,10 @@ h1.global-font-size {
 	font-size: 38.5px;
 }
 
+h4.global-font-size {
+	font-size: 19.6px;
+}
+
 p.global-font-size {
 	font-size: 17.5px;
 }
@@ -39,6 +43,14 @@ span.global-font-size {
 	h1.global-font-size {
 		font-size: 52.5px;
 	}
+
+	h2.global-font-size {
+		font-size: 31.5px;
+	}
+
+	h3.global-font-size {
+		font-size: 24.5px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -61,12 +73,26 @@ span.global-font-size {
 }
 
 @media (min-width: 768px) {
+	h2.global-font-size {
+		font-size: 35px;
+	}
+}
+
+@media (min-width: 768px) and (min-height: 1024px) {
 	button.global-font-size {
 		font-size: 24.5px;
 	}
 
 	h1.global-font-size {
 		font-size: 77px;
+	}
+
+	h2.global-font-size {
+		font-size: 35px;
+	}
+
+	h3.global-font-size {
+		font-size: 28px;
 	}
 
 	p.global-font-size {
@@ -78,7 +104,7 @@ span.global-font-size {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (min-height: 1366px) {
 	h1.global-font-size {
 		font-size: 98px;
 	}
@@ -99,7 +125,7 @@ span.global-font-size {
 	}
 
 	h1.global-font-size {
-		font-size: 63px;
+		font-size: 59.5px;
 	}
 
 	p.global-font-size {
@@ -111,9 +137,41 @@ span.global-font-size {
 	}
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1440px) {
+	h1.global-font-size {
+		font-size: 66.5px;
+	}
+
+	p.global-font-size {
+		font-size: 24.5px;
+	}
+
+	span.global-font-size {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 1680px) {
 	.global-hrz-padding {
 		padding-right: 315px;
 		padding-left: 315px;
+	}
+
+	h1.global-font-size {
+		font-size: 80.5px;
+	}
+
+	p.global-font-size {
+		font-size: 28px;
+	}
+
+	span.global-font-size {
+		font-size: 24.5px;
+	}
+}
+
+@media (min-width: 1920px) {
+	h2.global-font-size {
+		font-size: 41px;
 	}
 }

@@ -36,7 +36,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+header,
+body,
+footer {
   min-width: 300px;
 }
 

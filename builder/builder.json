@@ -2,7 +2,7 @@
 	"en": {
 		"header": {
 			"sections": [
-				{ "name": "About", "to": "#", "special": false },
+				{ "name": "About", "to": "#section-3", "special": false },
 				{ "name": "Skills", "to": "#", "special": false },
 				{ "name": "Certificates", "to": "#", "special": false },
 				{ "name": "Projects", "to": "#", "special": false },
@@ -21,6 +21,54 @@
 				"text-3": "Over 2 years crafting web applications and cloud-based solutions.",
 				"phone-number": "5515997752074",
 				"phone-message": "Hello, let's talk"
+			},
+			"section-2": [
+				{
+					"name": "Mail",
+					"image": "./assets/images/social-media/mail.png",
+					"to": "mailto:jgdaflores184186@hotmail.com/"
+				},
+				{
+					"name": "Whatsapp",
+					"image": "./assets/images/social-media/whatsapp.png",
+					"to": "https://wa.me/5515997752074"
+				},
+				{
+					"name": "Linkedin",
+					"image": "./assets/images/social-media/linkedin.png",
+					"to": "https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
+				},
+				{
+					"name": "Github",
+					"image": "./assets/images/social-media/github.png",
+					"to": "https://github.com/GabrielFlores8227/"
+				}
+			],
+			"section-3": {
+				"id": "section-3",
+				"content": [
+					{
+						"image": "./assets/images/about/gabriel-flores.png",
+						"title": "About",
+						"text": "My name is Gabriel Flores, I'm from Araçoiaba da Serra, and I'm 20 years old. I'm particularly passionate about developing and creating projects, especially in the IT field. I have significant skills in Back-End, but I'm always seeking new challenges to expand my knowledge.",
+						"show": "Show more",
+						"hide": "Show less"
+					},
+					{
+						"image": "./assets/images/about/uniso.png",
+						"title": "College",
+						"text": "I am currently studying Analysis and Systems Development at the University of Sorocaba, and I am in the second semester. I began my formal studies in 2022, and since then, I have had the unique opportunity to develop my skills and abilities by working collaboratively with peers and the university on projects focused on the field of computing.",
+						"show": "Show more",
+						"hide": "Show less"
+					},
+					{
+						"image": "./assets/images/about/carrer.png",
+						"title": "Carrer",
+						"text": "My work involves developing and creating robust, stable, and scalable applications for Web, Mobile, and Desktop platforms, utilizing my creativity and expertise in the field. I employ tools such as Flutter & Dart, Node.js & Electron, and JavaScript & Html5 for application development. I collaborate on projects focusing on the Back-End, including various types of APIs (Node.js and Python), using tools like Cloud Computing (AWS) and Nginx.",
+						"show": "Show more",
+						"hide": "Show less"
+					}
+				]
 			}
 		}
 	}
