@@ -1,5 +1,36 @@
 div.content-section {
   padding-top: 140px;
+  position: relative;
+}
+div.content-section.--special {
+  width: 100%;
+  background-color: var(--m-green);
+  padding-top: 140px;
+  padding-bottom: 140px;
+  margin: 210px 0px;
+}
+div.content-section.--special > span {
+  width: 100%;
+  overflow: hidden;
+}
+div.content-section.--special > span svg > path {
+  fill: var(--m-green);
+}
+div.content-section.--special > span:first-of-type {
+  transform: translateY(-84%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div.content-section.--special > span:last-of-type {
+  transform: translateY(84%) rotate(180deg) scaleX(-1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+div.content-section.--special h2,
+div.content-section.--special h3 {
+  color: var(--m-white);
 }
 div.content-section h2 {
   max-width: 700px;
@@ -297,6 +328,52 @@ div.section-4 > div img {
   div.section-4 > div img {
     height: 105px;
   }
+}
+/*
+section-5
+*/
+div.section-5 > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+div.section-5 > div > div {
+  flex: 1;
+  min-width: 298px;
+  background-color: var(--m-white);
+  border-radius: 7px;
+  padding: 21px;
+}
+div.section-5 > div > div > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 14px;
+}
+div.section-5 > div > div > div:first-of-type img {
+  width: 45.5px;
+  height: 45.5px;
+  border-radius: 100px;
+}
+div.section-5 > div > div > div:first-of-type > div > p:first-of-type {
+  font-weight: bold;
+  font-size: 16.1px;
+}
+div.section-5 > div > div > div:first-of-type > div > p:last-of-type {
+  font-size: 14px;
+  color: var(--m-black);
+  filter: opacity(70%);
+}
+div.section-5 > div > div > div:nth-of-type(2) {
+  padding: 21px 0px;
+}
+div.section-5 > div > div > div:nth-of-type(2) img {
+  width: 100%;
+}
+div.section-5 > div > div > div:last-of-type p {
+  font-size: 14px;
+  color: var(--m-black);
+  filter: opacity(70%);
 }
 
 /*# sourceMappingURL=main.css.map */

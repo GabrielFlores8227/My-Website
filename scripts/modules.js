@@ -71,6 +71,7 @@ export function buildMain(main) {
 	buildMainSection2(main['section-2']);
 	buildMainSection3(main['section-3']);
 	buildMainSection4(main['section-4']);
+	buildMainSection5(main['section-5']);
 }
 
 function buildMainSection1(section1) {
@@ -260,4 +261,37 @@ function buildMainSection4(section4) {
 				position = sliderContainer.scrollLeft;
 			});
 		});
+}
+
+function buildMainSection5(section5) {
+	const section5Selector = window.document.querySelector('div[section-5]');
+	section5Selector.querySelector('h2').innerText = section5.text;
+	section5Selector.querySelector('h3').innerText = section5.title;
+
+	const template = window.document.querySelector(
+		'template[certificate-template]',
+	);
+
+	section5.content.forEach((item) => {
+		const usableTemplate = template.content.cloneNode(true).children[0];
+
+		const companyImg = usableTemplate.querySelector('img[company-logo]');
+
+		companyImg.setAttribute('src', item['company-image']);
+		companyImg.setAttribute('alt', item['company-name']);
+
+		usableTemplate.querySelector('p[company-name]').innerText =
+			item['company-name'];
+		usableTemplate.querySelector('p[company-url]').innerText =
+			item['company-url'];
+
+		const certificateImg = usableTemplate.querySelector('img[certificate]');
+
+		certificateImg.setAttribute('src', item['certificate-image']);
+		certificateImg.setAttribute('alt', `${item['company-name']} Certificate`);
+
+		usableTemplate.querySelector('p[footer]').innerText = item.footer;
+
+		template.parentNode.append(usableTemplate);
+	});
 }

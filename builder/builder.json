@@ -87,6 +87,33 @@
 					"./assets/images/skills/html.png",
 					"./assets/images/skills/css.png"
 				]
+			},
+			"section-5": {
+				"title": "3. Certificates",
+				"text": "'Learning never exhausts the mind.' - Leonardo da Vinci",
+				"content": [
+					{
+						"company-image": "./assets/images/certificates/company-logos/aws.jpg",
+						"company-name": "AWS",
+						"company-url": "aws.amazon.com",
+						"certificate-image": "./assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
+						"footer": "Issue Date: Jul 29, 2023"
+					},
+					{
+						"company-image": "./assets/images/certificates/company-logos/lpi.png",
+						"company-name": "Linux Professional Institute",
+						"company-url": "www.lpi.org",
+						"certificate-image": "./assets/images/certificates/certificates/linux-essentials.png",
+						"footer": "Issue Date: Nov 7, 2022"
+					},
+					{
+						"company-image": "./assets/images/certificates/company-logos/uniso.png",
+						"company-name": "Universidade de Sorocaba",
+						"company-url": "www.uniso.br",
+						"certificate-image": "./assets/images/certificates/certificates/uniso.png",
+						"footer": "Issue Date: Nov 28, 2022"
+					}
+				]
 			}
 		}
 	}
