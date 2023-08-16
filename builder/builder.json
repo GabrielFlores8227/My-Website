@@ -73,7 +73,7 @@
 			},
 			"section-4": {
 				"title": "2. Skills",
-				"text": "Studying and developing my knowledge in the field of computer science for over 2 years.",
+				"text": "Studying and developing my knowledge in the field of computer science for over 2 years",
 				"content": [
 					"./assets/images/skills/linux.png",
 					"./assets/images/skills/neovim.png",
@@ -118,7 +118,7 @@
 			},
 			"section-7": {
 				"title": "5. Fav. Repositories",
-				"text": "My preferred repositories and the ones I frequently utilize.",
+				"text": "My preferred repositories and the ones I frequently utilize",
 				"content": [
 					{
 						"avatar-image": "./assets/images/fav-repositories/gabrielflores8227.jpeg",
