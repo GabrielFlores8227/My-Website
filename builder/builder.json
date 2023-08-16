@@ -76,6 +76,7 @@
 				"text": "Studying and developing my knowledge in the field of computer science for over 2 years.",
 				"content": [
 					"./assets/images/skills/linux.png",
+					"./assets/images/skills/neovim.png",
 					"./assets/images/skills/bash.png",
 					"./assets/images/skills/nginx.png",
 					"./assets/images/skills/aws.png",
@@ -100,18 +101,53 @@
 						"footer": "Issue Date: Jul 29, 2023"
 					},
 					{
-						"company-image": "./assets/images/certificates/company-logos/lpi.png",
-						"company-name": "Linux Professional Institute",
-						"company-url": "www.lpi.org",
-						"certificate-image": "./assets/images/certificates/certificates/linux-essentials.png",
-						"footer": "Issue Date: Nov 7, 2022"
-					},
-					{
 						"company-image": "./assets/images/certificates/company-logos/uniso.png",
 						"company-name": "Universidade de Sorocaba",
 						"company-url": "www.uniso.br",
 						"certificate-image": "./assets/images/certificates/certificates/uniso.png",
 						"footer": "Issue Date: Nov 28, 2022"
+					},
+					{
+						"company-image": "./assets/images/certificates/company-logos/lpi.png",
+						"company-name": "Linux Professional Institute",
+						"company-url": "www.lpi.org",
+						"certificate-image": "./assets/images/certificates/certificates/linux-essentials.png",
+						"footer": "Issue Date: Nov 7, 2022"
+					}
+				]
+			},
+			"section-7": {
+				"title": "5. Fav. Repositories",
+				"text": "My preferred repositories and the ones I frequently utilize.",
+				"content": [
+					{
+						"avatar-image": "./assets/images/fav-repositories/gabrielflores8227.jpeg",
+						"repository-link": "https://github.com/GabrielFlores8227/Neovim-Config",
+						"title": "Neovim Configurations and Unix Installation for Neovim",
+						"text": "This repository contains Neovim configuration files. Neovim is a powerful text editor built as a modernized version of Vim. With this configuration, I have customized Neovim to enhance my coding and text editing workflow.",
+						"about": ["neovim", "bash", "coc"]
+					},
+					{
+						"avatar-image": "./assets/images/fav-repositories/andresgongora.png",
+						"repository-link": "https://github.com/andresgongora/synth-shell",
+						"title": "Synth Shell | Boost your terminal, script by script",
+						"text": "synth-shell improves your terminal experience and productivity through a combination of small bash scripts.",
+						"about": [
+							"productivity",
+							"utility",
+							"terminal",
+							"eye-candy",
+							"maintenance",
+							"hackerman",
+							"system-administration"
+						]
+					},
+					{
+						"avatar-image": "./assets/images/fav-repositories/junegunn.jpeg",
+						"repository-link": "https://github.com/junegunn/vim-plug",
+						"title": "Vim Plug | Minimalist Vim Plugin Manager",
+						"text": "Vim-Plug is a popular plugin manager for the Vim and Neovim text editors. It simplifies the process of installing, updating, and managing plugins within Vim-based environments.",
+						"about": ["vim", "neovim"]
 					}
 				]
 			}

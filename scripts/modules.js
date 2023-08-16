@@ -72,6 +72,7 @@ export function buildMain(main) {
 	buildMainSection3(main['section-3']);
 	buildMainSection4(main['section-4']);
 	buildMainSection5(main['section-5']);
+	buildMainSection7(main['section-7']);
 }
 
 function buildMainSection1(section1) {
@@ -173,10 +174,8 @@ function buildMainSection4(section4) {
 
 	window.document
 		.querySelectorAll('template[skill-template]')
-		.forEach((template, index) => {
-			if (index % 2 !== 0) {
-				section4.content = section4.content.reverse();
-			}
+		.forEach((template) => {
+			section4.content = section4.content.reverse();
 
 			for (let c = 0; c < 3; c++) {
 				section4.content.forEach((item) => {
@@ -291,6 +290,45 @@ function buildMainSection5(section5) {
 		certificateImg.setAttribute('alt', `${item['company-name']} Certificate`);
 
 		usableTemplate.querySelector('p[footer]').innerText = item.footer;
+
+		template.parentNode.append(usableTemplate);
+	});
+}
+
+function buildMainSection7(section7) {
+	const section7Selector = window.document.querySelector('div[section-7]');
+	section7Selector.querySelector('h2').innerText = section7.text;
+	section7Selector.querySelector('h3').innerText = section7.title;
+
+	const template = window.document.querySelector(
+		'template[repository-template]',
+	);
+
+	section7.content.forEach((item) => {
+		const usableTemplate = template.content.cloneNode(true).children[0];
+
+		usableTemplate
+			.querySelector('img')
+			.setAttribute('src', item['avatar-image']);
+
+		usableTemplate.querySelectorAll('a').forEach((a) => {
+			a.setAttribute('href', item['repository-link']);
+		});
+
+		usableTemplate.querySelector('h4').innerText = item.title;
+		usableTemplate.querySelector('p').innerText = item.text;
+
+		const aboutTemplate = usableTemplate.querySelector(
+			'template[repository-about-template]',
+		);
+
+		item.about.forEach((aboutItem) => {
+			const usableTemplate = aboutTemplate.content.cloneNode(true).children[0];
+
+			usableTemplate.innerText = aboutItem;
+
+			aboutTemplate.parentNode.append(usableTemplate);
+		});
 
 		template.parentNode.append(usableTemplate);
 	});
