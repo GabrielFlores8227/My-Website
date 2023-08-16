@@ -95,26 +95,30 @@
 				"content": [
 					{
 						"company-image": "./assets/images/certificates/company-logos/aws.jpg",
-						"company-name": "AWS",
+						"company-name": "AWS | Certified Cloud Practitioner",
 						"company-url": "aws.amazon.com",
 						"certificate-image": "./assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
 						"footer": "Issue Date: Jul 29, 2023"
 					},
 					{
 						"company-image": "./assets/images/certificates/company-logos/uniso.png",
-						"company-name": "Universidade de Sorocaba",
+						"company-name": "Uniso | Site - tDCS Guide Brain",
 						"company-url": "www.uniso.br",
 						"certificate-image": "./assets/images/certificates/certificates/uniso.png",
 						"footer": "Issue Date: Nov 28, 2022"
 					},
 					{
 						"company-image": "./assets/images/certificates/company-logos/lpi.png",
-						"company-name": "Linux Professional Institute",
+						"company-name": "LPI | Linux Essentials",
 						"company-url": "www.lpi.org",
 						"certificate-image": "./assets/images/certificates/certificates/linux-essentials.png",
 						"footer": "Issue Date: Nov 7, 2022"
 					}
 				]
+			},
+			"section-6": {
+				"title": "4. Projects",
+				"text": "'Genius is one percent inspiration and ninety-nine percent perspiration.' - Seneca the Younger"
 			},
 			"section-7": {
 				"title": "5. Fav. Repositories",

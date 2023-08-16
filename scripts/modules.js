@@ -64,6 +64,25 @@ export function buildHeader(header) {
 	drawer.addEventListener('click', () => {
 		closeDrawer();
 	});
+
+	window.document
+		.querySelector('header')
+		.querySelectorAll('a')
+		.forEach((a) => {
+			a.addEventListener('click', (e) => {
+				e.preventDefault();
+
+				const href = a.getAttribute('href');
+
+				const section = window.document.querySelector(href);
+
+				window.scrollBy({
+					top: section.offsetTop - window.scrollY,
+					left: 0,
+					behavior: 'smooth',
+				});
+			});
+		});
 }
 
 export function buildMain(main) {
@@ -72,6 +91,7 @@ export function buildMain(main) {
 	buildMainSection3(main['section-3']);
 	buildMainSection4(main['section-4']);
 	buildMainSection5(main['section-5']);
+	buildMainSection6(main['section-6']);
 	buildMainSection7(main['section-7']);
 }
 
@@ -228,7 +248,7 @@ function buildMainSection4(section4) {
 				if (left) position = sliderContainer.scrollLeft + 1;
 				else position = sliderContainer.scrollLeft - 1;
 
-				sliderContainer.scrollTo(position, 0);
+				sliderContainer.scrollLeft = position;
 			}, 10);
 
 			sliderContainer.addEventListener('touchmove', () => {
@@ -293,6 +313,12 @@ function buildMainSection5(section5) {
 
 		template.parentNode.append(usableTemplate);
 	});
+}
+
+function buildMainSection6(section6) {
+	const section6Selector = window.document.querySelector('div[section-6]');
+	section6Selector.querySelector('h2').innerText = section6.text;
+	section6Selector.querySelector('h3').innerText = section6.title;
 }
 
 function buildMainSection7(section7) {
