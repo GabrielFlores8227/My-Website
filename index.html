@@ -41,6 +41,14 @@
 			title="no title"
 			charset="utf-8"
 		/>
+		<link
+			rel="stylesheet"
+			href="./styles/footer/footer.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
 
 		<!--scripts-->
 		<script
@@ -103,7 +111,7 @@
 		<!--main-->
 		<main>
 			<!--section 1-->
-			<div class="global-hrz-padding section-1">
+			<div id="section-1" class="global-hrz-padding">
 				<div>
 					<p text-1 class="global-font-size"></p>
 					<h1 text-2 class="global-font-size"></h1>
@@ -117,7 +125,7 @@
 			</div>
 
 			<!--section 2-->
-			<div class="global-hrz-padding section-2">
+			<div id="section-2" class="global-hrz-padding">
 				<template social-media-template>
 					<a target="_blank">
 						<img />
@@ -126,7 +134,7 @@
 			</div>
 
 			<!--section 3-->
-			<div section-3 class="global-hrz-padding section-3 content-section">
+			<div section-3 id="section-3" class="global-hrz-padding content-section">
 				<h3 class="global-font-size"></h3>
 				<h2 class="global-font-size"></h2>
 				<div>
@@ -144,11 +152,11 @@
 			</div>
 
 			<!--section 4-->
-			<div section-4 class="global-hrz-padding section-4 content-section">
+			<div section-4 id="section-4" class="global-hrz-padding content-section">
 				<h3 class="global-font-size"></h3>
 				<h2 class="global-font-size"></h2>
 			</div>
-			<div class="section-4">
+			<div class="skills-slider-container">
 				<div slider-container>
 					<template skill-template>
 						<div>
@@ -168,7 +176,8 @@
 			<!--section 5-->
 			<div
 				section-5
-				class="global-hrz-padding section-5 content-section --special"
+				id="section-5"
+				class="global-hrz-padding content-section --special"
 			>
 				<span>
 					<svg
@@ -212,7 +221,7 @@
 			</div>
 
 			<!--section 7-->
-			<div section-7 class="global-hrz-padding section-7 content-section">
+			<div section-7 id="section-7" class="global-hrz-padding content-section">
 				<h3 class="global-font-size"></h3>
 				<h2 class="global-font-size"></h2>
 
@@ -244,5 +253,46 @@
 				</div>
 			</div>
 		</main>
+		<footer>
+			<div>
+				<span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="0.611111in"
+						viewBox="0 0 8000 55"
+					>
+						<path default-pattern id="Selection" />
+					</svg>
+				</span>
+				<div class="global-hrz-padding">
+					<div>
+						<h3 class="global-font-size"></h3>
+						<h2 class="global-font-size"></h2>
+						<p></p>
+						<div>
+							<a whatsapp-link target="_blank">
+								<i class="fa-brands fa-whatsapp"></i>
+								Whatsapp
+							</a>
+							<a mail-link target="_blank">
+								<i class="fa-regular fa-envelope"></i>
+								Mail
+							</a>
+						</div>
+						<span>
+							Supported by the companies Menck, Almeida, and Flores to foster
+							collaborative innovation. To gain access to the original
+							repository, visit
+							<a
+								href="https://github.com/GabrielFlores8227/My-Website"
+								target="_blank"
+							>
+								My-Website Repository </a
+							>.
+						</span>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

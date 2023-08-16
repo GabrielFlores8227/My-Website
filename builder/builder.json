@@ -151,6 +151,13 @@
 					}
 				]
 			}
+		},
+		"footer": {
+			"title": "#Next",
+			"subtitle": "Contact Me",
+			"text": "I am open to opportunities, my inbox is always open. If you have a question or just want to say hello, I will be happy to respond to you!",
+			"whatsapp": "https://wa.me/5515997752074",
+			"mail": "mailto:jgdaflores184186@hotmail.com/"
 		}
 	}
 }

@@ -209,7 +209,7 @@ function buildMainSection4(section4) {
 
 					timer = setTimeout(() => {
 						pause = false;
-					}, 3500);
+					}, 4100);
 				}
 
 				if (pause) {
@@ -332,4 +332,20 @@ function buildMainSection7(section7) {
 
 		template.parentNode.append(usableTemplate);
 	});
+}
+
+export function buildFooter(footer) {
+	const footerSelector = window.document.querySelector('footer');
+
+	footerSelector.querySelector('h3').innerText = footer.title;
+	footerSelector.querySelector('h2').innerText = footer.subtitle;
+	footerSelector.querySelector('p').innerText = footer.text;
+
+	footerSelector
+		.querySelector('a[whatsapp-link]')
+		.setAttribute('href', footer.whatsapp);
+
+	footerSelector
+		.querySelector('a[mail-link]')
+		.setAttribute('href', footer.mail);
 }
