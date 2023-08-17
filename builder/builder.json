@@ -192,11 +192,11 @@
 		},
 		"main": {
 			"section-1": {
-				"text-1": "Olá , meu nome é",
+				"text-1": "Olá, meu nome é",
 				"text-2": "Gabriel Flores, eu sou um Dev Full-Stack",
 				"text-3": "Mais de 2 anos criando aplicações web e soluções baseadas em nuvem",
 				"phone-number": "5515997752074",
-				"phone-message": "Hello, let's talk"
+				"phone-message": "Vamos conversar"
 			},
 			"section-2": [
 				{
