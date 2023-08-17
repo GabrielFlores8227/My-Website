@@ -1,0 +1,97 @@
+@font-face {
+  font-family: poppins-regular;
+  src: url(../../assets/fonts/poppins/poppins-regular.ttf);
+}
+@font-face {
+  font-family: poppins-medium;
+  src: url(../../assets/fonts/poppins/poppins-medium.ttf);
+}
+:root {
+  --m-white: white;
+  --m-black: black;
+  --m-green: rgb(78, 178, 84);
+  --m-gray: rgb(130, 130, 130);
+  --regular-font: poppins-regular, Arial, Helvetica, sans-serif;
+  --bold-font: poppins-medium, Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: var(--regular-font);
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  width: 17.5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 70px;
+  border: 4.9px solid white;
+}
+*::-webkit-scrollbar-track {
+  background-color: var(--m-white);
+}
+
+@-moz-document url-prefix() {
+  * {
+    font-family: var(--bold-font);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header,
+body,
+footer {
+  min-width: 300px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 110%;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  cursor: default;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */

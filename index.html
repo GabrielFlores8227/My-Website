@@ -1,378 +1,333 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 
-		<!--description-->
-		<meta
-			name="description"
-			content="Meu nome é Gabriel Flores, sou natural de Araçoiaba da Serra e tenho 20 anos. Sou particularmente apaixonado por desenvolver e criar projetos, especialmente na área de TI. Possuo habilidades significativas no Back-End, mas estou sempre em busca de novos desafios para expandir meus conhecimentos."
-		/>
-
-		<!--title-->
-		<title>Gabriel Flores</title>
-
-		<!--icon-->
-		<link
-			rel="shortcut icon"
-			href="./assets/images/icon/green-icon.png"
-			type="image/x-icon"
-		/>
+		<!--title & logo-->
+		<title>Gabriel Flores | Portfolio</title>
+		<link rel="icon" href="./assets/images/logo/small-logo.png" />
 
 		<!--css-->
-		<link rel="stylesheet" href="./style/index.css" />
+		<link
+			rel="stylesheet"
+			href="./styles/index/index.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+		<link
+			rel="stylesheet"
+			href="./styles/controller/controller.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+		<link
+			rel="stylesheet"
+			href="./styles/header/header.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+		<link
+			rel="stylesheet"
+			href="./styles/main/main.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+		<link
+			rel="stylesheet"
+			href="./styles/footer/footer.css"
+			type="text/css"
+			media="screen"
+			title="no title"
+			charset="utf-8"
+		/>
+
+		<!--scripts-->
+		<script
+			defer
+			type="module"
+			src="./scripts/builder.js"
+			charset="utf-8"
+		></script>
+		<script defer src="./scripts/others.js" charset="utf-8"></script>
 
 		<!--font-awesome-->
 		<link
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
 	</head>
 	<body>
-		<header class="global-horizontal-padding">
-			<div class="KvTdiEJHxamRKgdprDKT">
-				<img
-					src="./assets/images/icon/green-icon.png"
-					alt="Gabriel Flores icon"
-				/>
-			</div>
-			<button class="NMCWMikyCrQzEtWAkqMn NMCWMikyCrQzEtWAkqMn--false">
-				<i class="fa-solid fa-bars"></i>
-			</button>
-			<ul class="MdRkquYsfpPBMQgGavHK">
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae" for="Sobre"> 1. Sobre </a>
-				</li>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae" for="Habilidades"> 2. Habilidades </a>
-				</li>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae" for="Projetos"> 3. Projetos </a>
-				</li>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae" for="Próximo"> 4. Próximo </a>
-				</li>
-				<li>
-					<a href="./assets/resume/resume.pdf" download> Currículo </a>
-				</li>
-			</ul>
-		</header>
-		<div
-			class="global-horizontal-padding XfGANijfYvPogncCmjqi XfGANijfYvPogncCmjqi--false"
-		>
-			<ul>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae HFEwvOOFtwYRNUjPhcUL" for="Sobre">
-						1. Sobre
-					</a>
-				</li>
-				<li>
-					<a
-						class="KgUFYMMHupyPyeEHgsae HFEwvOOFtwYRNUjPhcUL"
-						for="Habilidades"
-					>
-						2. Habilidades
-					</a>
-				</li>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae HFEwvOOFtwYRNUjPhcUL" for="Projetos">
-						3. Projetos
-					</a>
-				</li>
-				<li>
-					<a class="KgUFYMMHupyPyeEHgsae HFEwvOOFtwYRNUjPhcUL" for="Próximo">
-						4. Próximo
-					</a>
-				</li>
-				<li>
-					<a
-						class="HFEwvOOFtwYRNUjPhcUL"
-						href="./assets/resume/resume.pdf"
-						download
-					>
-						<i class="fa-solid fa-download"></i>
-						Currículo
-					</a>
-				</li>
-			</ul>
-		</div>
-		<main>
-			<div class="global-horizontal-padding tLTQwZcFLUHwxkVqXhfH">
+		<!--header-->
+		<header>
+			<div class="global-hrz-padding">
 				<div>
-					<p class="global-font-size-controller">Olá, me chamo</p>
-					<h1 class="global-font-size-controller">
-						Gabriel Flores, sou um dev Full-Stack
-					</h1>
-					<p class="global-font-size-controller">
-						+ de 2 anos desenvolvendo aplicações para todas as plataformas.
-					</p>
+					<picture>
+						<source
+							media="(min-width:1300px)"
+							srcset="./assets/images/logo/big-logo.png"
+						/>
+						<img
+							src="./assets/images/logo/small-logo.png"
+							alt="Gabriel Flores Logo"
+						/>
+					</picture>
 				</div>
-				<div class="VHAHQWNnvRpvGFsMrpoL">
-					<a href="https://wa.me/5515997752074" target="_blank">
+				<button header-drawer--on class="global-font-size">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div>
+					<ul>
+						<template sections-template>
+							<li>
+								<a></a>
+							</li>
+						</template>
+					</ul>
+				</div>
+			</div>
+			<div header-drawer class="global-hrz-padding">
+				<ul>
+					<template sections-template>
+						<li>
+							<a tabindex="-1"></a>
+						</li>
+					</template>
+				</ul>
+			</div>
+		</header>
+
+		<!--main-->
+		<main>
+			<!--section 1-->
+			<div id="section-1" class="global-hrz-padding">
+				<div>
+					<p text-1 class="global-font-size"></p>
+					<h1 text-2 class="global-font-size"></h1>
+					<span text-3 class="global-font-size"></span>
+				</div>
+				<div>
+					<a phone target="_blank">
 						<i class="fa-brands fa-whatsapp"></i>
-						Vamos conversar
 					</a>
 				</div>
 			</div>
-			<div class="global-horizontal-padding XBXhXyftPNDZeumthENH">
-				<a
-					href="mailto:jgdaflores184186@hotmail.com?subject=Olá!"
-					target="_blank"
-				>
-					<img
-						src="./assets/images/social-medias/mail.png"
-						alt="Outlook logo"
-					/>
-				</a>
-				<a
-					href="https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
-					target="_blank"
-				>
-					<img
-						src="./assets/images/social-medias/linkedin.png"
-						alt="LikedIn logo"
-					/>
-				</a>
-				<a href="https://github.com/GabrielFlores8227" target="_blank">
-					<img
-						src="./assets/images/social-medias/github.png"
-						alt="Github logo"
-					/>
-				</a>
-				<a href="https://wa.me/5515997752074" target="_blank">
-					<img
-						src="./assets/images/social-medias/whatsapp.png"
-						alt="Whatsapp logo"
-					/>
-				</a>
+
+			<!--section 2-->
+			<div id="section-2" class="global-hrz-padding">
+				<template social-media-template>
+					<a target="_blank">
+						<img />
+					</a>
+				</template>
 			</div>
-			<div id="Sobre" class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
-				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">
-					1. Sobre
-				</h3>
-				<h2
-					id="mLFuMCohWyNphRNnyeUR"
-					class="global-font-size-controller ALywfwrNALgnKoHQzaGz"
-				>
-					"Tente mover o mundo – o primeiro passo será mover a si mesmo."
-					-Platão
-				</h2>
-				<div class="NFNbiPAyGpZFzdwQYmxG">
-					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
-						<img
-							src="./assets/images/about/Gabriel Flores.png"
-							alt="Gabriel Flores picture"
-						/>
-						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">
-							Sobre mim
-						</h3>
-						<div id="OImHFjhIntwJOHxrFMaT" class="BLoAiPNBYePeUXcfznLJ">
-							<p>
-								Meu nome é Gabriel Flores, sou natural de Araçoiaba da Serra e
-								tenho 20 anos. Sou particularmente apaixonado por desenvolver e
-								criar projetos, especialmente na área de TI. Possuo habilidades
-								significativas no Back-End, mas estou sempre em busca de novos
-								desafios para expandir meus conhecimentos.
-							</p>
+
+			<!--section 3-->
+			<div section-3 id="section-3" class="global-hrz-padding content-section">
+				<h3 class="global-font-size"></h3>
+				<h2 class="global-font-size"></h2>
+				<div>
+					<template about-template>
+						<div>
+							<img />
+							<h4 class="global-font-size"></h4>
+							<div>
+								<p></p>
+							</div>
+							<button></button>
 						</div>
-						<button class="XgKBAqyBanoXzVrJKUcX">Mostrar mais +</button>
-					</div>
-					<hr />
-					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
-						<img src="./assets/images/about/Uniso.png" alt="Uniso picture" />
-						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">
-							Faculdade
-						</h3>
-						<div id="qlOKvnkqoQuIpbbdAzDx" class="BLoAiPNBYePeUXcfznLJ">
-							<p>
-								Estou cursando Análise e Desenvolvimento de Sistemas na
-								<a href="https://www.uniso.br" target="_blank">
-									Universidade de Sorocaba
-								</a>
-								e atualmente encontro-me no segundo semestre. Iniciei meus
-								estudos formais em 2022 e, desde então, tenho tido a
-								oportunidade única de desenvolver minhas habilidades e
-								capacidades trabalhando em conjunto com colegas e a faculdade no
-								desenvolvimento de projetos focados na área de computação.
-							</p>
-						</div>
-						<button class="XgKBAqyBanoXzVrJKUcX">Mostrar mais +</button>
-					</div>
-					<hr />
-					<div class="global-font-size-controller PwzpkYWTkykFnpvFsTrt">
-						<img src="./assets/images/about/Carrer.png" alt="Carrer picture" />
-						<h3 class="global-font-size-controller sQetwHJsjWYUmvfsqLbL">
-							Trabalho
-						</h3>
-						<div id="YtnfyxlmuNLOTFsfsCjY" class="BLoAiPNBYePeUXcfznLJ">
-							<p>
-								Meu trabalho é desenvolver e criar aplicações sólidas, estáveis
-								e escaláveis para plataformas Web, Mobile e Desktop, utilizando
-								de minha criatividade e conhecimentos na área. Utilizo
-								ferramentas como Flutter & Dart, Node.js & Electron e JavaScript
-								& Html5 para desenvolver aplicações. Desenvolvo em conjunto
-								aplicações voltadas ao Back-End, como APIs (Node.js e Python) de
-								todos os tipos, utilizando de ferramentas como Cloud Computing
-								(AWS) e Nginx.
-							</p>
-						</div>
-						<button class="XgKBAqyBanoXzVrJKUcX">Mostrar mais +</button>
-					</div>
+					</template>
 				</div>
 			</div>
+
+			<!--section 4-->
+			<div section-4 id="section-4" class="global-hrz-padding content-section">
+				<h3 class="global-font-size"></h3>
+				<h2 class="global-font-size"></h2>
+			</div>
+			<div class="skills-slider-container">
+				<div slider-container>
+					<template skill-template>
+						<div>
+							<img alt="Skill Icon" />
+						</div>
+					</template>
+				</div>
+				<div slider-container>
+					<template skill-template>
+						<div>
+							<img alt="Skill Icon" />
+						</div>
+					</template>
+				</div>
+			</div>
+
+			<!--section 5-->
 			<div
-				id="Habilidades"
-				class="global-horizontal-padding LcucEWGDqrWthWkQohCw"
+				section-5
+				id="section-5"
+				class="global-hrz-padding content-section --special"
 			>
-				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">
-					2. Habilidades
-				</h3>
-				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">
-					Há + de 2 anos estudando e desenvolvendo meus conhecimentos na área da
-					computação
-				</h2>
-			</div>
-			<div class="iJauBXvjMqQExDiJmpWN">
-				<div class="oVUOEDzpqKHyOQZHJZfP">
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/linux.png" alt="Linux logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/bash.png" alt="Bash logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/neovim.png" alt="Neovim logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/aws.png" alt="Aws logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/mysql.png" alt="Mysql logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/python.png" alt="Python logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/node.png" alt="Node logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img
-							src="./assets/images/skills/typescript.png"
-							alt="TypeScript logo"
-						/>
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img
-							src="./assets/images/skills/javascript.png"
-							alt="JavaScript logo"
-						/>
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/html.png" alt="Html logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/css.png" alt="Css logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/flutter.png" alt="Flutter logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/dart.png" alt="Dart logo" />
-					</div>
+				<span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="0.611111in"
+						viewBox="0 0 8000 55"
+					>
+						<path default-pattern id="Selection" />
+					</svg>
+				</span>
+				<h3 class="global-font-size"></h3>
+				<h2 class="global-font-size"></h2>
+				<div>
+					<template certificate-template>
+						<div>
+							<div>
+								<img company-logo />
+								<div>
+									<p company-name></p>
+									<p company-url></p>
+								</div>
+							</div>
+							<div>
+								<img certificate />
+							</div>
+							<div>
+								<p footer></p>
+							</div>
+						</div>
+					</template>
 				</div>
-				<div class="oVUOEDzpqKHyOQZHJZfP">
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/dart.png" alt="Dart logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/flutter.png" alt="Flutter logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/css.png" alt="Css logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/html.png" alt="Html logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img
-							src="./assets/images/skills/javascript.png"
-							alt="JavaScript logo"
-						/>
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img
-							src="./assets/images/skills/typescript.png"
-							alt="TypeScript logo"
-						/>
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/node.png" alt="Node logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/python.png" alt="Python logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/mysql.png" alt="Mysql logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/aws.png" alt="Aws logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/neovim.png" alt="Neovim logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/bash.png" alt="Bash logo" />
-					</div>
-					<div class="QQpwCPriBXrqrgrWmiyZ">
-						<img src="./assets/images/skills/linux.png" alt="Linux logo" />
-					</div>
+				<span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="0.611111in"
+						viewBox="0 0 8000 55"
+					>
+						<path default-pattern id="Selection" />
+					</svg>
+				</span>
+			</div>
+
+			<!--section 6-->
+			<div section-6 id="section-6" class="global-hrz-padding content-section">
+				<h3 class="global-font-size"></h3>
+				<h2 class="global-font-size"></h2>
+				<div>
+					<template project-template>
+						<div>
+							<div>
+								<a project-link target="_blank">
+									<img />
+								</a>
+							</div>
+							<div>
+								<div>
+									<p project-release></p>
+								</div>
+								<h5 class="global-font-size"></h5>
+								<h4 class="global-font-size"></h4>
+								<p text></p>
+								<div>
+									<a project-link target="_blank"
+										><i class="fa-solid fa-link"></i>Project</a
+									>
+									<a github-link target="_blank">
+										<i class="fa-brands fa-github"></i>
+										Github</a
+									>
+								</div>
+							</div>
+						</div>
+					</template>
 				</div>
 			</div>
-			<div id="Projetos" class="global-horizontal-padding LcucEWGDqrWthWkQohCw">
-				<h3 class="global-font-size-controller ZQcYtzeBbMjueeHpByrR">
-					3. Projetos
-				</h3>
-				<h2 class="global-font-size-controller ALywfwrNALgnKoHQzaGz">
-					Tenho como meta criar e desenvolver projetos que possam ajudar e
-					auxiliar pessoas
-				</h2>
-				<div class="aBgKwuLKVrnTdZicxtCv">
-					<h3 class="global-font-size-controller">
-						<i class="fa-solid fa-thumbtack"></i>
-						Meus projetos aqui em breve
-					</h3>
+
+			<!--section 7-->
+			<div section-7 id="section-7" class="global-hrz-padding content-section">
+				<h3 class="global-font-size"></h3>
+				<h2 class="global-font-size"></h2>
+
+				<div>
+					<template repository-template>
+						<div>
+							<div>
+								<a target="_blank">
+									<img alt="Github Avatar" />
+								</a>
+								<a target="_blank">
+									<i class="fa-solid fa-link"></i>
+									<i class="fa-brands fa-github"></i>
+								</a>
+							</div>
+							<div>
+								<div>
+									<h4 class="global-font-size"></h4>
+									<p></p>
+								</div>
+							</div>
+							<div>
+								<template repository-about-template>
+									<p></p>
+								</template>
+							</div>
+						</div>
+					</template>
 				</div>
 			</div>
 		</main>
-		<footer id="Próximo">
-			<div class="global-horizontal-padding vfsWXmPMRtnYRbXCvrgG">
-				<h3 class="global-font-size-controller">4. Próximo</h3>
-				<h2 class="global-font-size-controller">Entre em Contato</h2>
-				<div class="qpbiBMhwzitBbZycXqXd">
-					<p>
-						Estou aberto a oportunidades, minha caixa de entrada está sempre
-						aberta. Se você tem uma pergunta ou apenas quer dizer oi, ficarei
-						feliz em te responder!
-					</p>
-				</div>
-				<div class="XqBwxqkYEnqKJzXWYXVt">
-					<div class="PgofLKfmfpAXMhVorPAt">
-						<a href="https://wa.me/5515997752074" target="_blank">
-							<i class="fa-brands fa-whatsapp"></i>
-							Vamos conversar
-						</a>
+		<footer>
+			<div>
+				<span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="0.611111in"
+						viewBox="0 0 8000 55"
+					>
+						<path default-pattern id="Selection" />
+					</svg>
+				</span>
+				<div class="global-hrz-padding">
+					<div>
+						<h3 class="global-font-size"></h3>
+						<h2 class="global-font-size"></h2>
+						<p></p>
+						<div>
+							<a whatsapp-link target="_blank">
+								<i class="fa-brands fa-whatsapp"></i>
+								Whatsapp
+							</a>
+							<a mail-link target="_blank">
+								<i class="fa-regular fa-envelope"></i>
+								Mail
+							</a>
+						</div>
+						<span>
+							Supported by the companies Menck, Almeida, and Flores to foster
+							collaborative innovation. To gain access to the original
+							repository, visit
+							<a
+								href="https://github.com/GabrielFlores8227/My-Website"
+								target="_blank"
+							>
+								My-Website</a
+							>
+							Repository.
+						</span>
 					</div>
-				</div>
-				<div class="zpiNJTcwmytJogfxiJVA">
-					<p>Design desenvolvido por Gabriel Flores & Pedro Mattos</p>
-					<p>Código desenvolvido por Gabriel Flores</p>
 				</div>
 			</div>
 		</footer>
-		<script src="./script/index.js"></script>
 	</body>
 </html>

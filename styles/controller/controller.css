@@ -1,0 +1,158 @@
+.global-hrz-padding {
+  padding-right: 41px;
+  padding-left: 41px;
+}
+
+button.global-font-size {
+  font-size: 21px;
+}
+
+h1.global-font-size {
+  font-size: 38.5px;
+}
+
+h2.global-font-size {
+  font-size: 28px;
+}
+
+h4.global-font-size {
+  font-size: 19.6px;
+}
+
+p.global-font-size {
+  font-size: 17.5px;
+}
+
+span.global-font-size {
+  font-size: 17.5px;
+}
+
+@media (min-width: 375px) {
+  h1.global-font-size {
+    font-size: 45.5px;
+  }
+  p.global-font-size {
+    font-size: 21px;
+  }
+}
+@media (min-width: 375px) and (min-height: 812px) {
+  h1.global-font-size {
+    font-size: 51.1px;
+  }
+}
+@media (min-width: 414px) {
+  h1.global-font-size {
+    font-size: 52.5px;
+  }
+  h2.global-font-size {
+    font-size: 31.5px;
+  }
+  h3.global-font-size {
+    font-size: 24.5px;
+  }
+}
+@media (min-width: 600px) {
+  .global-hrz-padding {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  h1.global-font-size {
+    font-size: 60.9px;
+  }
+  p.global-font-size {
+    font-size: 24.5px;
+  }
+  span.global-font-size {
+    font-size: 21px;
+  }
+}
+@media (min-width: 768px) {
+  h2.global-font-size {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) and (min-height: 1024px) {
+  button.global-font-size {
+    font-size: 24.5px;
+  }
+  h1.global-font-size {
+    font-size: 77px;
+  }
+  h2.global-font-size {
+    font-size: 35px;
+  }
+  h3.global-font-size {
+    font-size: 28px;
+  }
+  p.global-font-size {
+    font-size: 28px;
+  }
+  span.global-font-size {
+    font-size: 24.5px;
+  }
+}
+@media (min-width: 1024px) and (min-height: 1366px) {
+  h1.global-font-size {
+    font-size: 98px;
+  }
+  p.global-font-size {
+    font-size: 35px;
+  }
+  span.global-font-size {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1300px) {
+  .global-hrz-padding {
+    padding-right: 140px;
+    padding-left: 140px;
+  }
+  h1.global-font-size {
+    font-size: 59.5px;
+  }
+  h4.global-font-size {
+    font-size: 21px;
+  }
+  h5.global-font-size {
+    font-size: 16.1px;
+  }
+  p.global-font-size {
+    font-size: 21px;
+  }
+  span.global-font-size {
+    font-size: 17.5px;
+  }
+}
+@media (min-width: 1440px) {
+  h1.global-font-size {
+    font-size: 66.5px;
+  }
+  p.global-font-size {
+    font-size: 24.5px;
+  }
+  span.global-font-size {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1680px) {
+  .global-hrz-padding {
+    padding-right: 315px;
+    padding-left: 315px;
+  }
+  h1.global-font-size {
+    font-size: 80.5px;
+  }
+  p.global-font-size {
+    font-size: 28px;
+  }
+  span.global-font-size {
+    font-size: 24.5px;
+  }
+}
+@media (min-width: 1920px) {
+  h2.global-font-size {
+    font-size: 41px;
+  }
+}
+
+/*# sourceMappingURL=controller.css.map */
