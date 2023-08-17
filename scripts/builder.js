@@ -4,13 +4,12 @@ import * as modules from './modules.js';
 	let req = await (await fetch('/builder/builder.json')).json();
 
 	const userLanguage = navigator.language;
+	const lang = window.document.documentElement.lang;
 
-	if (req[userLanguage]) {
-		window.document.documentElement.lang = userLanguage;
-
-		req = req[userLanguage];
+	if (userLanguage !== lang && req[userLanguage]) {
+		window.location.href = '/pt-BR';
 	} else {
-		req = req.en;
+		req = req[lang];
 	}
 
 	modules.buildHeader(req.header);
