@@ -69,10 +69,14 @@ export function buildHeader(header) {
 		.querySelector('header')
 		.querySelectorAll('a')
 		.forEach((a) => {
+			const href = a.getAttribute('href');
+
+			if (!href.includes('#')) {
+				return;
+			}
+
 			a.addEventListener('click', (e) => {
 				e.preventDefault();
-
-				const href = a.getAttribute('href');
 
 				const section = window.document.querySelector(href);
 
