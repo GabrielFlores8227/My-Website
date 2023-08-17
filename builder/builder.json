@@ -182,7 +182,7 @@
 				{ "name": "Habilidades", "to": "#section-4", "special": false },
 				{ "name": "Certificados", "to": "#section-5", "special": false },
 				{ "name": "Projetos", "to": "#section-6", "special": false },
-				{ "name": "Repositório Fav.", "to": "#section-7", "special": false },
+				{ "name": "Repositórios Fav.", "to": "#section-7", "special": false },
 				{
 					"name": "Currículo",
 					"to": "https://onedrive.live.com/embed?resid=A0D4171CD5812D29%216792&authkey=!AHXixJhKI2jwJ2o&em=2",
@@ -309,7 +309,7 @@
 				]
 			},
 			"section-7": {
-				"title": "5. Repositório Fav.",
+				"title": "5. Repositórios Fav.",
 				"text": "Meus repositórios preferidos e os que eu frequentemente utilizo.",
 				"content": [
 					{
