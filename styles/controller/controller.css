@@ -110,6 +110,12 @@ span.global-font-size {
   h1.global-font-size {
     font-size: 59.5px;
   }
+  h4.global-font-size {
+    font-size: 21px;
+  }
+  h5.global-font-size {
+    font-size: 16.1px;
+  }
   p.global-font-size {
     font-size: 21px;
   }

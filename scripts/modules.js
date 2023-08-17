@@ -323,6 +323,31 @@ function buildMainSection6(section6) {
 	const section6Selector = window.document.querySelector('div[section-6]');
 	section6Selector.querySelector('h2').innerText = section6.text;
 	section6Selector.querySelector('h3').innerText = section6.title;
+
+	const template = window.document.querySelector('template[project-template]');
+
+	section6.content.forEach((item) => {
+		const usableTemplate = template.content.cloneNode(true).children[0];
+
+		usableTemplate.querySelectorAll('a[project-link]').forEach((a) => {
+			a.setAttribute('href', item['project-link']);
+		});
+
+		const img = usableTemplate.querySelector('img');
+		img.setAttribute('src', item['project-image']);
+		img.setAttribute('alt', item.title);
+
+		usableTemplate.querySelector('p[project-release]').innerText =
+			item['project-release'];
+		usableTemplate.querySelector('h5').innerText = item.title;
+		usableTemplate.querySelector('h4').innerText = item.subtitle;
+		usableTemplate.querySelector('p[text]').innerText = item.text;
+		usableTemplate
+			.querySelector('a[github-link]')
+			.setAttribute('href', item['github-link']);
+
+		template.parentNode.append(usableTemplate);
+	});
 }
 
 function buildMainSection7(section7) {

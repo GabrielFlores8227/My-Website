@@ -451,6 +451,8 @@ div#section-5 {
 		gap: 20px;
 
 		& > div {
+			display: flex;
+			flex-direction: column;
 			flex: 1;
 			min-width: 298px;
 			background-color: var(--m-white);
@@ -461,6 +463,7 @@ div#section-5 {
 				display: flex;
 				align-items: center;
 				justify-content: left;
+				height: 100%;
 				gap: 14px;
 
 				img {
@@ -503,6 +506,206 @@ div#section-5 {
 }
 
 /*
+section-6
+*/
+
+div#section-6 {
+	& > div {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+
+		& > div {
+			width: 100%;
+			position: relative;
+			transform: translateY(70px);
+
+			& > div:first-of-type {
+				width: 84%;
+
+				& > a {
+					display: block;
+					border-radius: 7px;
+
+					img {
+						width: 100%;
+						border-radius: 7px;
+						object-fit: cover;
+					}
+				}
+			}
+
+			& > div:last-of-type {
+				margin-left: auto;
+				padding: 42px 21px;
+				border-radius: 7px;
+				width: 84%;
+				background-color: var(--m-green);
+				transform: translateY(-70px);
+				position: relative;
+
+				& > div:first-of-type {
+					&::after {
+						content: '';
+						width: 8.4px;
+						height: 8.4px;
+						background-color: var(--m-green);
+						border-radius: 100%;
+						transform: translateY(-50%);
+						position: absolute;
+						top: 50%;
+						right: -14px;
+					}
+
+					height: fit-content;
+					position: absolute;
+					bottom: -35px;
+					right: 21px;
+
+					& > p {
+						display: flex;
+						align-items: center;
+						gap: 3.5px;
+						color: var(--m-green);
+						font-size: 14px;
+					}
+				}
+
+				h4,
+				h5 {
+					color: var(--m-white);
+				}
+
+				h5 {
+					margin-bottom: 7px;
+				}
+
+				h4 {
+					margin-bottom: 21px;
+				}
+
+				& > p {
+					color: var(--m-white);
+					margin-bottom: 21px;
+				}
+
+				& > div:last-of-type {
+					display: flex;
+					flex-direction: column;
+					gap: 10.5px;
+
+					a {
+						&:hover {
+							background-color: var(--m-white);
+							color: var(--m-green);
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						border: 2px solid var(--m-white);
+						border-radius: 7px;
+						padding: 10.5px;
+						gap: 4.9px;
+						color: var(--m-white);
+						transition: ease-in-out 0.35s;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	div#section-6 {
+		& > div {
+			& > div {
+				& > div:first-of-type {
+					& > a {
+						img {
+							height: 350px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	div#section-6 {
+		& > div {
+			& > div {
+				& > div:first-of-type {
+					& > a {
+						img {
+							width: 70%;
+						}
+					}
+				}
+
+				& > div:last-of-type {
+					width: 70%;
+					transform: translateY(-98px);
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1300px) {
+	div#section-6 {
+		& > div {
+			padding: 0px 161px 0px 161px;
+
+			& > div {
+				& > div:first-of-type {
+					& > a {
+						img {
+							width: 84%;
+						}
+					}
+				}
+
+				& > div:last-of-type {
+					width: 84%;
+
+					& > div:first-of-type {
+						position: absolute;
+						top: -35px;
+						right: 28px;
+
+						& > p {
+							font-size: 16.1px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1920px) {
+	div#section-6 {
+		& > div {
+			& > div {
+				& > div:first-of-type {
+					& > a {
+						img {
+							height: 385px;
+						}
+					}
+				}
+
+				& > div:last-of-type {
+					width: 84%;
+				}
+			}
+		}
+	}
+}
+
+/*
 section-7
 */
 
@@ -527,18 +730,25 @@ div#section-7 {
 				align-items: center;
 				justify-content: space-between;
 
-				img {
+				& > a:first-of-type {
+					border-radius: 100%;
 					width: 44.8px;
 					height: 44.8px;
-					border-radius: 100%;
+					overflow: hidden;
+
+					img {
+						width: 100%;
+						object-fit: contain;
+					}
 				}
 
-				a {
+				& > a:last-of-type {
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					gap: 7px;
 					color: white;
+					padding: 3.5px;
 					font-size: 21px;
 				}
 			}
