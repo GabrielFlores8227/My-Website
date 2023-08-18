@@ -341,7 +341,7 @@ div#section-5 > div > div {
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-width: 298px;
+  min-width: 224px;
   background-color: var(--m-white);
   border-radius: 7px;
   padding: 21px;
@@ -379,6 +379,11 @@ div#section-5 > div > div > div:last-of-type p {
   filter: opacity(70%);
 }
 
+@media (min-width: 600px) {
+  div#section-5 > div > div {
+    min-width: 298px;
+  }
+}
 /*
 section-6
 */
@@ -526,7 +531,7 @@ div#section-7 > div > div {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  min-width: 298px;
+  min-width: 224px;
   padding: 24.5px 28px;
   border-radius: 7px;
   background-color: var(--m-green);
@@ -587,6 +592,12 @@ div#section-7 > div > div > div:last-of-type p {
   padding: 7px 14px;
   font-weight: bold;
   font-size: 12.6px;
+}
+
+@media (min-width: 600px) {
+  div#section-7 > div > div {
+    min-width: 294px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
