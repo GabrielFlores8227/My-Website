@@ -104,12 +104,14 @@ function buildMainSection1(section1) {
 	window.document.querySelector('h1[text-2]').innerText = section1['text-2'];
 	window.document.querySelector('span[text-3]').innerText = section1['text-3'];
 
-	const a = window.document.querySelector('a[phone]');
-	a.innerHTML = a.innerHTML + section1['phone-message'];
+	const a = window.document.querySelector('a[phone-link]');
+
 	a.setAttribute(
 		'href',
 		`https://wa.me/${section1['phone-number']}?text=${section1['phone-message']}`,
 	);
+
+	a.querySelector('i[phone-message]').innerText = section1['phone-message'];
 }
 
 function buildMainSection2(section2) {
@@ -328,6 +330,9 @@ function buildMainSection6(section6) {
 
 	section6.content.forEach((item) => {
 		const usableTemplate = template.content.cloneNode(true).children[0];
+
+		usableTemplate.querySelector('i[project-label]').innerText =
+			item['project-label'];
 
 		usableTemplate.querySelectorAll('a[project-link]').forEach((a) => {
 			a.setAttribute('href', item['project-link']);

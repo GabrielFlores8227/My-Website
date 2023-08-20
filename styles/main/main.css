@@ -95,33 +95,38 @@ div#section-1 > div:last-of-type a {
   color: var(--m-white);
   border-radius: 70px;
   padding: 14px 24.5px;
-  font-size: 14px;
-  font-weight: bold;
   transition: ease-in-out 0.35s;
 }
 div#section-1 > div:last-of-type a:hover {
   color: var(--m-green);
   background-color: transparent;
 }
-div#section-1 > div:last-of-type a i {
+div#section-1 > div:last-of-type a > i:first-of-type {
   font-size: 21px;
+}
+div#section-1 > div:last-of-type a > i:last-of-type {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 @media (min-width: 375px) {
-  div#section-1 > div:last-of-type a {
-    font-size: 16.1px;
-  }
-  div#section-1 > div:last-of-type a i {
+  div#section-1 > div:last-of-type a > i:first-of-type {
     font-size: 24.5px;
+  }
+  div#section-1 > div:last-of-type a > i:last-of-type {
+    font-size: 16.1px;
   }
 }
 @media (min-width: 768px) and (min-height: 1024px) {
   div#section-1 > div:last-of-type a {
-    font-size: 21px;
     gap: 10.5px;
   }
-  div#section-1 > div:last-of-type a i {
+  div#section-1 > div:last-of-type a > i:first-of-type {
     font-size: 28px;
+  }
+  div#section-1 > div:last-of-type a > i:last-of-type {
+    font-size: 21px;
   }
 }
 @media (min-width: 1024px) {
@@ -135,10 +140,12 @@ div#section-1 > div:last-of-type a i {
   }
   div#section-1 > div:last-of-type a {
     padding: 21px 35px;
-    font-size: 26.6px;
   }
-  div#section-1 > div:last-of-type a i {
+  div#section-1 > div:last-of-type a > i:first-of-type {
     font-size: 35px;
+  }
+  div#section-1 > div:last-of-type a > i:last-of-type {
+    font-size: 26.6px;
   }
 }
 @media (min-width: 1300px) {
@@ -151,10 +158,12 @@ div#section-1 > div:last-of-type a i {
   div#section-1 > div:last-of-type a {
     gap: 7px;
     padding: 17.5px 28px;
-    font-size: 16.1px;
   }
-  div#section-1 > div:last-of-type a i {
+  div#section-1 > div:last-of-type a > i:first-of-type {
     font-size: 22.4px;
+  }
+  div#section-1 > div:last-of-type a > i:last-of-type {
+    font-size: 16.1px;
   }
 }
 @media (min-width: 1440px) {
@@ -166,11 +175,11 @@ div#section-1 > div:last-of-type a i {
   div#section-1 {
     min-height: 1050px;
   }
-  div#section-1 > div:last-of-type a {
-    font-size: 18.9px;
-  }
-  div#section-1 > div:last-of-type a i {
+  div#section-1 > div:last-of-type a > i:first-of-type {
     font-size: 24.5px;
+  }
+  div#section-1 > div:last-of-type a > i:last-of-type {
+    font-size: 18.9px;
   }
 }
 @media (min-width: 1920px) {
@@ -475,6 +484,9 @@ div#section-6 > div > div > div:last-of-type > div:last-of-type a {
 div#section-6 > div > div > div:last-of-type > div:last-of-type a:hover {
   background-color: var(--m-white);
   color: var(--m-green);
+}
+div#section-6 > div > div > div:last-of-type > div:last-of-type a i {
+  font-style: normal;
 }
 
 @media (min-width: 768px) {

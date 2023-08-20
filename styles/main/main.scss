@@ -116,12 +116,16 @@ div#section-1 {
 			color: var(--m-white);
 			border-radius: 70px;
 			padding: 14px 24.5px;
-			font-size: 14px;
-			font-weight: bold;
 			transition: ease-in-out 0.35s;
 
-			i {
+			& > i:first-of-type {
 				font-size: 21px;
+			}
+
+			& > i:last-of-type {
+				font-size: 14px;
+				font-weight: bold;
+				font-style: normal;
 			}
 		}
 	}
@@ -131,10 +135,12 @@ div#section-1 {
 	div#section-1 {
 		& > div:last-of-type {
 			a {
-				font-size: 16.1px;
-
-				i {
+				& > i:first-of-type {
 					font-size: 24.5px;
+				}
+
+				& > i:last-of-type {
+					font-size: 16.1px;
 				}
 			}
 		}
@@ -145,11 +151,14 @@ div#section-1 {
 	div#section-1 {
 		& > div:last-of-type {
 			a {
-				font-size: 21px;
 				gap: 10.5px;
 
-				i {
+				& > i:first-of-type {
 					font-size: 28px;
+				}
+
+				& > i:last-of-type {
+					font-size: 21px;
 				}
 			}
 		}
@@ -171,10 +180,13 @@ div#section-1 {
 
 			a {
 				padding: 21px 35px;
-				font-size: 26.6px;
 
-				i {
+				& > i:first-of-type {
 					font-size: 35px;
+				}
+
+				& > i:last-of-type {
+					font-size: 26.6px;
 				}
 			}
 		}
@@ -191,10 +203,13 @@ div#section-1 {
 			a {
 				gap: 7px;
 				padding: 17.5px 28px;
-				font-size: 16.1px;
 
-				i {
+				& > i:first-of-type {
 					font-size: 22.4px;
+				}
+
+				& > i:last-of-type {
+					font-size: 16.1px;
 				}
 			}
 		}
@@ -213,10 +228,12 @@ div#section-1 {
 
 		& > div:last-of-type {
 			a {
-				font-size: 18.9px;
-
-				i {
+				& > i:first-of-type {
 					font-size: 24.5px;
+				}
+
+				& > i:last-of-type {
+					font-size: 18.9px;
 				}
 			}
 		}
@@ -619,6 +636,10 @@ div#section-6 {
 						gap: 4.9px;
 						color: var(--m-white);
 						transition: ease-in-out 0.35s;
+
+						i {
+							font-style: normal;
+						}
 					}
 				}
 			}
