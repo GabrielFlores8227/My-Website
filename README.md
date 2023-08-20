@@ -27,7 +27,7 @@
 ## 🔨 Tools
 
 <ul>
-  <li>AWS Amplify</li>
+  <li>AWS Amplify (Hosted)</li>
   <li>Html</li>
   <li>Sass & Css</li>
   <li>JavaScript</li>
