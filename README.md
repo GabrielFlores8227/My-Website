@@ -24,6 +24,14 @@
   🤠 My personal website, where I showcase my projects and share my favorite repositories. It's a digital space that gives you a glimpse into my world as a developer and lets you explore my creative         endeavors.
 </p>
 
+## 🔨 Tools
+
+<ul>
+  <li>Html</li>
+  <li>Sass & Css</li>
+  <li>JavaScript</li>
+</ul>
+
 ## 🎨 Color Reference
 
 | Color          | Hex                                                                |
