@@ -53,7 +53,7 @@
   </li>
 </ul>
 
- ### License
+## 📖 License
 
 This script is licensed under the [MIT License](LICENSE).
 
