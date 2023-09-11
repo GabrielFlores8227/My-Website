@@ -12,6 +12,7 @@ import * as modules from './modules.js';
 		req = req[lang];
 	}
 
+	modules.buildDescription(req.main['section-3'].content[0].text);
 	modules.buildHeader(req.header);
 	modules.buildMain(req.main);
 	modules.buildFooter(req.footer);

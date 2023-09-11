@@ -1,3 +1,9 @@
+export function buildDescription(description) {
+	window.document
+		.querySelector('meta[name="description"]')
+		.setAttribute('content', description);
+}
+
 export function buildHeader(header) {
 	window.document
 		.querySelectorAll('template[sections-template]')
