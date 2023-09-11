@@ -52,3 +52,11 @@
     Supported by the companies Menck, Almeida, and Flores
   </li>
 </ul>
+
+ ### License
+
+This script is licensed under the [MIT License](LICENSE).
+
+Feel free to use, modify, and distribute this script as per the terms of the license.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
