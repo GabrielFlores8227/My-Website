@@ -42,7 +42,7 @@
 | Gray          | ![#828282](https://via.placeholder.com/10/828282?text=+) `#828282` |
 | White          | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
 
-## ⭐ Support and Inspiration
+## 👏🏼 Support and Inspiration
 
 <ul>
   <li>
