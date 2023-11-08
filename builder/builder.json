@@ -9,7 +9,7 @@
 				{ "name": "Fav. Repositories", "to": "#section-7", "special": false },
 				{
 					"name": "Resume",
-					"to": "https://onedrive.live.com/embed?resid=A0D4171CD5812D29%216792&authkey=!AHXixJhKI2jwJ2o&em=2",
+					"to": "/assets/pdfs/resume.pdf",
 					"special": true
 				}
 			]
@@ -186,7 +186,7 @@
 				{ "name": "Repositórios Fav.", "to": "#section-7", "special": false },
 				{
 					"name": "Currículo",
-					"to": "https://onedrive.live.com/embed?resid=A0D4171CD5812D29%216792&authkey=!AHXixJhKI2jwJ2o&em=2",
+					"to": "/assets/pdfs/resume.pdf",
 					"special": true
 				}
 			]
