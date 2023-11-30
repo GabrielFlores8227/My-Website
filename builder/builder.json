@@ -73,7 +73,7 @@
 			},
 			"section-4": {
 				"title": "2. Skills",
-				"text": "Studying and developing my knowledge in the field of computer science for over 2 years",
+				"text": "Studying and developing my knowledge in the field of software development for over 2 years",
 				"content": [
 					"/assets/images/skills/linux.png",
 					"/assets/images/skills/neovim.png",
@@ -251,7 +251,7 @@
 			},
 			"section-4": {
 				"title": "2. Habilidades",
-				"text": "Estudando e desenvolvendo meu conhecimento na área de ciência da computação por mais de 2 anos",
+				"text": "Estudando e desenvolvendo meu conhecimento na área de desenvolvimento de software por mais de 2 anos",
 				"content": [
 					"/assets/images/skills/linux.png",
 					"/assets/images/skills/neovim.png",
