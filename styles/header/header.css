@@ -19,6 +19,7 @@ header > div:first-of-type > div:first-of-type img {
 }
 header > div:first-of-type > button {
   color: var(--m-green);
+  font-size: 26px;
 }
 header > div:first-of-type > div:last-of-type {
   display: none;
