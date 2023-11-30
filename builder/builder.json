@@ -121,14 +121,14 @@
 				"text": "'Genius is one percent inspiration and ninety-nine percent perspiration.' - Seneca the Younger",
 				"content": [
 					{
-						"title": "StoreTS",
-						"subtitle": "Papelaria Menck",
-						"text": "Create attractive portfolios for your store, promote products, and reach more customers with StoreTS. A platform developed primarily for Papelaria Menck, integrated with AWS and WhatsApp, enabling effective online sales through WhatsApp.",
-						"project-image": "/assets/images/projects/papelaria-menck.png",
+						"title": "College Builder",
+						"subtitle": "University Projects Platform",
+						"text": "The College Builder is a platform designed exclusively to host academic projects developed by a specific group of students from the University of Sorocaba in the Analysis and Systems Development course. Providing a dedicated digital space, the platform enables the owning group to efficiently showcase and share the achievements of their academic project.",
+						"project-image": "/assets/images/projects/collegebuilder.png",
 						"project-label": "Project",
-						"project-link": "https://www.papelariamenck.com.br/",
-						"github-link": "https://github.com/GabrielFlores8227/StoreTS",
-						"project-release": "Release: Aug.17.2023"
+						"project-link": "https://collegebuilder.easyvirtual.net/",
+						"github-link": "https://github.com/College-Builder",
+						"project-release": "Nov.30.2023"
 					}
 				]
 			},
@@ -299,14 +299,14 @@
 				"text": "'O gênio é um por cento de inspiração e noventa e nove por cento de transpiração.' - Sêneca, o Jovem",
 				"content": [
 					{
-						"title": "StoreTS",
-						"subtitle": "Papelaria Menck",
-						"text": "Crie portfólios atrativos para sua loja, promova produtos e alcance mais clientes com o StoreTS. Uma plataforma desenvolvida primariamente para a Papelaria Menck, integrada com a AWS e WhatsApp, permitindo vendas online através do whatsapp de forma eficaz.",
-						"project-image": "/assets/images/projects/papelaria-menck.png",
+						"title": "College Builder",
+						"subtitle": "Plataforma de Projetos Universitários",
+						"text": "O College Builder é uma plataforma projetada para hospedar exclusivamente projetos acadêmicos desenvolvidos por um grupo específico de alunos da Universidade de Sorocaba, no curso de Análise e Desenvolvimento de Sistemas. Oferecendo um espaço digital dedicado, a plataforma possibilita ao grupo proprietário apresentar e compartilhar de maneira eficiente as conquistas de seu projeto acadêmico",
+						"project-image": "/assets/images/projects/collegebuilder.png",
 						"project-label": "Projeto",
-						"project-link": "https://www.papelariamenck.com.br/",
-						"github-link": "https://github.com/GabrielFlores8227/StoreTS",
-						"project-release": "Lançamento: 17.Aug.2023"
+						"project-link": "https://collegebuilder.easyvirtual.net/",
+						"github-link": "https://github.com/College-Builder",
+						"project-release": "30.Nov.2023"
 					}
 				]
 			},
