@@ -1,358 +1,358 @@
 {
-	"en": {
-		"header": {
-			"sections": [
-				{ "name": "About", "to": "#section-3", "special": false },
-				{ "name": "Skills", "to": "#section-4", "special": false },
-				{ "name": "Certificates", "to": "#section-5", "special": false },
-				{ "name": "Projects", "to": "#section-6", "special": false },
-				{ "name": "Fav. Repositories", "to": "#section-7", "special": false },
-				{
-					"name": "Resume",
-					"to": "/assets/pdfs/resume.pdf",
-					"special": true
-				}
-			]
-		},
-		"main": {
-			"section-1": {
-				"text-1": "Hi, my name is",
-				"text-2": "Gabriel Flores, I'm a Full-Stack Developer",
-				"text-3": "Over 2 years crafting web applications and cloud-based solutions.",
-				"phone-number": "5515997752074",
-				"phone-message": "Let's talk"
-			},
-			"section-2": [
-				{
-					"name": "Mail",
-					"image": "/assets/images/social-media/mail.png",
-					"to": "mailto:jgdaflores184186@hotmail.com/"
-				},
-				{
-					"name": "Whatsapp",
-					"image": "/assets/images/social-media/whatsapp.png",
-					"to": "https://wa.me/5515997752074"
-				},
-				{
-					"name": "Linkedin",
-					"image": "/assets/images/social-media/linkedin.png",
-					"to": "https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
-				},
-				{
-					"name": "Github",
-					"image": "/assets/images/social-media/github.png",
-					"to": "https://github.com/GabrielFlores8227/"
-				}
-			],
-			"section-3": {
-				"title": "1. About",
-				"text": "'To move the world, the first step is to move yourself.' - Plato",
-				"content": [
-					{
-						"image": "/assets/images/about/gabriel-flores.png",
-						"title": "About",
-						"text": "My name is Gabriel Flores, I'm from Araçoiaba da Serra, and I'm 20 years old. I'm particularly passionate about developing and creating projects, especially in the IT field. I have significant skills in Back-End, but I'm always seeking new challenges to expand my knowledge.",
-						"show": "Show more",
-						"hide": "Show less"
-					},
-					{
-						"image": "/assets/images/about/uniso.png",
-						"title": "College",
-						"text": "I am currently studying Analysis and Systems Development at the University of Sorocaba, and I am in the third semester. I started my formal studies in 2022, and since then, I have had the valuable opportunity to enhance my skills and capabilities through collaborative work with fellow students and the university on computing-focused projects.",
-						"show": "Show more",
-						"hide": "Show less"
-					},
-					{
-						"image": "/assets/images/about/carrer.png",
-						"title": "Carrer",
-						"text": "My work involves developing and creating robust, stable, and scalable applications for Web, Mobile, and Desktop platforms, utilizing my creativity and expertise in the field. I employ tools such as Flutter & Dart, Node.js & Electron, and JavaScript & Html5 for application development. I collaborate on projects focusing on the Back-End, including various types of APIs (Node.js and Python), using tools like Cloud Computing (AWS) and Nginx.",
-						"show": "Show more",
-						"hide": "Show less"
-					}
-				]
-			},
-			"section-4": {
-				"title": "2. Skills",
-				"text": "Studying and developing my knowledge in the field of software development for over 2 years",
-				"content": [
-					"/assets/images/skills/linux.png",
-					"/assets/images/skills/neovim.png",
-					"/assets/images/skills/bash.png",
-					"/assets/images/skills/nginx.png",
-					"/assets/images/skills/aws.png",
-					"/assets/images/skills/mysql.png",
-					"/assets/images/skills/python.png",
-					"/assets/images/skills/node.png",
-					"/assets/images/skills/typescript.png",
-					"/assets/images/skills/javascript.png",
-					"/assets/images/skills/html.png",
-					"/assets/images/skills/css.png"
-				]
-			},
-			"section-5": {
-				"title": "3. Certificates",
-				"text": "'Learning never exhausts the mind.' - Leonardo da Vinci",
-				"content": [
-					{
-						"company-image": "/assets/images/certificates/company-logos/aws.jpg",
-						"company-name": "AWS | Certified Cloud Practitioner",
-						"company-url": "aws.amazon.com",
-						"certificate-image": "/assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
-						"footer": "Issue Date: Jul 29, 2023"
-					},
-					{
-						"company-image": "/assets/images/certificates/company-logos/aws.jpg",
-						"company-name": "AWS | Certified Solutions Architect",
-						"company-url": "aws.amazon.com",
-						"certificate-image": "/assets/images/certificates/certificates/aws-certified-solutions-architect-associate.jpg",
-						"footer": "Issue Date: Nov 1, 2023"
-					},
-					{
-						"company-image": "/assets/images/certificates/company-logos/lpi.png",
-						"company-name": "LPI | Linux Essentials",
-						"company-url": "www.lpi.org",
-						"certificate-image": "/assets/images/certificates/certificates/linux-essentials.png",
-						"footer": "Issue Date: Nov 7, 2022"
-					}
-				]
-			},
-			"section-6": {
-				"title": "4. Projects",
-				"text": "'Genius is one percent inspiration and ninety-nine percent perspiration.' - Seneca the Younger",
-				"content": [
-					{
-						"title": "College Builder",
-						"subtitle": "University Projects Platform",
-						"text": "The College Builder is a platform designed exclusively to host academic projects developed by a specific group of students from the University of Sorocaba in the Analysis and Systems Development course. Providing a dedicated digital space, the platform enables the owning group to efficiently showcase and share the achievements of their academic project.",
-						"project-image": "/assets/images/projects/collegebuilder.png",
-						"project-label": "Project",
-						"project-link": "https://collegebuilder.easyvirtual.net/",
-						"github-link": "https://github.com/College-Builder",
-						"project-release": "Nov.30.2023"
-					}
-				]
-			},
-			"section-7": {
-				"title": "5. Fav. Repositories",
-				"text": "My preferred repositories and the ones I frequently utilize",
-				"content": [
-					{
-						"avatar-image": "/assets/images/fav-repositories/gabrielflores8227.jpeg",
-						"repository-link": "https://github.com/GabrielFlores8227/Neovim-Config",
-						"title": "Neovim Configurations and Unix Installation for Neovim",
-						"text": "This repository contains Neovim configuration files. Neovim is a powerful text editor built as a modernized version of Vim. With this configuration, I have customized Neovim to enhance my coding and text editing workflow.",
-						"about": ["neovim", "bash", "coc"]
-					},
-					{
-						"avatar-image": "/assets/images/fav-repositories/andresgongora.png",
-						"repository-link": "https://github.com/andresgongora/synth-shell",
-						"title": "Synth Shell | Boost your terminal, script by script",
-						"text": "synth-shell improves your terminal experience and productivity through a combination of small bash scripts.",
-						"about": [
-							"productivity",
-							"utility",
-							"terminal",
-							"eye-candy",
-							"maintenance",
-							"hackerman",
-							"system-administration"
-						]
-					},
-					{
-						"avatar-image": "/assets/images/fav-repositories/junegunn.jpeg",
-						"repository-link": "https://github.com/junegunn/vim-plug",
-						"title": "Vim Plug | Minimalist Vim Plugin Manager",
-						"text": "Vim-Plug is a popular plugin manager for the Vim and Neovim text editors. It simplifies the process of installing, updating, and managing plugins within Vim-based environments.",
-						"about": ["vim", "neovim"]
-					}
-				]
-			}
-		},
-		"footer": {
-			"title": "#Next",
-			"subtitle": "Contact Me",
-			"text": "I am open to opportunities, my inbox is always open. If you have a question or just want to say hello, I will be happy to respond to you!",
-			"whatsapp": "https://wa.me/5515997752074",
-			"mail": "mailto:jgdaflores184186@hotmail.com/"
-		}
-	},
-	"pt-BR": {
-		"header": {
-			"sections": [
-				{ "name": "Sobre", "to": "#section-3", "special": false },
-				{ "name": "Habilidades", "to": "#section-4", "special": false },
-				{ "name": "Certificados", "to": "#section-5", "special": false },
-				{ "name": "Projetos", "to": "#section-6", "special": false },
-				{ "name": "Repositórios Fav.", "to": "#section-7", "special": false },
-				{
-					"name": "Currículo",
-					"to": "/assets/pdfs/resume.pdf",
-					"special": true
-				}
-			]
-		},
-		"main": {
-			"section-1": {
-				"text-1": "Olá, meu nome é",
-				"text-2": "Gabriel Flores, eu sou um Dev Full-Stack",
-				"text-3": "Mais de 2 anos criando aplicações web e soluções baseadas em nuvem",
-				"phone-number": "5515997752074",
-				"phone-message": "Vamos conversar"
-			},
-			"section-2": [
-				{
-					"name": "Mail",
-					"image": "/assets/images/social-media/mail.png",
-					"to": "mailto:jgdaflores184186@hotmail.com/"
-				},
-				{
-					"name": "Whatsapp",
-					"image": "/assets/images/social-media/whatsapp.png",
-					"to": "https://wa.me/5515997752074"
-				},
-				{
-					"name": "Linkedin",
-					"image": "/assets/images/social-media/linkedin.png",
-					"to": "https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
-				},
-				{
-					"name": "Github",
-					"image": "/assets/images/social-media/github.png",
-					"to": "https://github.com/GabrielFlores8227/"
-				}
-			],
-			"section-3": {
-				"title": "1. Sobre",
-				"text": "'Para mover o mundo, o primeiro passo é mover a si mesmo.' - Platão",
-				"content": [
-					{
-						"image": "/assets/images/about/gabriel-flores.png",
-						"title": "Sobre",
-						"text": "Meu nome é Gabriel Flores, sou de Araçoiaba da Serra e tenho 20 anos. Sou especialmente apaixonado por desenvolver e criar projetos, principalmente na área de TI. Possuo habilidades significativas em Back-End, mas estou sempre buscando novos desafios para expandir meu conhecimento.",
-						"show": "Mostrar mais",
-						"hide": "Mostrar menos"
-					},
-					{
-						"image": "/assets/images/about/uniso.png",
-						"title": "Faculdade",
-						"text": "Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Universidade de Sorocaba, e estou no terceiro semestre. Iniciei meus estudos formais em 2022 e, desde então, tive a valiosa oportunidade de aprimorar minhas habilidades e capacidades por meio de trabalhos colaborativos com colegas de classe e a universidade em projetos focados em computação.",
-						"show": "Mostrar mais",
-						"hide": "Mostrar menos"
-					},
-					{
-						"image": "/assets/images/about/carrer.png",
-						"title": "Carreira",
-						"text": "Meu trabalho envolve o desenvolvimento e criação de aplicações robustas, estáveis e escaláveis para plataformas Web, Mobile e Desktop, utilizando minha criatividade e expertise na área. Eu utilizo ferramentas como Flutter & Dart, Node.js & Electron, e JavaScript & Html5 para o desenvolvimento de aplicações. Colaboro em projetos com foco no Back-End, incluindo diversos tipos de APIs (Node.js e Python), utilizando ferramentas como Computação em Nuvem (AWS) e Nginx.",
+  "en": {
+    "header": {
+      "sections": [
+        { "name": "About", "to": "#section-3", "special": false },
+        { "name": "Skills", "to": "#section-4", "special": false },
+        { "name": "Certificates", "to": "#section-5", "special": false },
+        { "name": "Projects", "to": "#section-6", "special": false },
+        { "name": "Fav. Repositories", "to": "#section-7", "special": false },
+        {
+          "name": "Resume",
+          "to": "/assets/pdfs/resume.pdf",
+          "special": true
+        }
+      ]
+    },
+    "main": {
+      "section-1": {
+        "text-1": "Hi, my name is",
+        "text-2": "Gabriel Flores, I'm a Full-Stack Developer",
+        "text-3": "Over 2 years crafting web applications and cloud-based solutions.",
+        "phone-number": "5515997752074",
+        "phone-message": "Let's talk"
+      },
+      "section-2": [
+        {
+          "name": "Mail",
+          "image": "/assets/images/social-media/mail.png",
+          "to": "mailto:jgdaflores184186@hotmail.com/"
+        },
+        {
+          "name": "Whatsapp",
+          "image": "/assets/images/social-media/whatsapp.png",
+          "to": "https://wa.me/5515997752074"
+        },
+        {
+          "name": "Linkedin",
+          "image": "/assets/images/social-media/linkedin.png",
+          "to": "https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
+        },
+        {
+          "name": "Github",
+          "image": "/assets/images/social-media/github.png",
+          "to": "https://github.com/GabrielFlores8227/"
+        }
+      ],
+      "section-3": {
+        "title": "1. About",
+        "text": "'To move the world, the first step is to move yourself.' - Plato",
+        "content": [
+          {
+            "image": "/assets/images/about/gabriel-flores.png",
+            "title": "About",
+            "text": "My name is Gabriel Flores, I'm from Araçoiaba da Serra, and I'm 20 years old. I'm particularly passionate about developing and creating projects, especially in the IT field. I have significant skills in Back-End, but I'm always seeking new challenges to expand my knowledge.",
+            "show": "Show more",
+            "hide": "Show less"
+          },
+          {
+            "image": "/assets/images/about/uniso.png",
+            "title": "College",
+            "text": "I am currently studying Analysis and Systems Development at the University of Sorocaba, and I am in the fourth semester. I started my formal studies in 2022, and since then, I have had the valuable opportunity to enhance my skills and capabilities through collaborative work with fellow students and the university on computing-focused projects.",
+            "show": "Show more",
+            "hide": "Show less"
+          },
+          {
+            "image": "/assets/images/about/carrer.png",
+            "title": "Carrer",
+            "text": "My work involves developing and creating robust, stable, and scalable applications for Web, Mobile, and Desktop platforms, utilizing my creativity and expertise in the field. I employ tools such as Flutter & Dart, Node.js & Electron, and JavaScript & Html5 for application development. I collaborate on projects focusing on the Back-End, including various types of APIs (Node.js and Python), using tools like Cloud Computing (AWS) and Nginx.",
+            "show": "Show more",
+            "hide": "Show less"
+          }
+        ]
+      },
+      "section-4": {
+        "title": "2. Skills",
+        "text": "Studying and developing my knowledge in the field of software development for over 2 years",
+        "content": [
+          "/assets/images/skills/linux.png",
+          "/assets/images/skills/neovim.png",
+          "/assets/images/skills/bash.png",
+          "/assets/images/skills/nginx.png",
+          "/assets/images/skills/aws.png",
+          "/assets/images/skills/mysql.png",
+          "/assets/images/skills/python.png",
+          "/assets/images/skills/node.png",
+          "/assets/images/skills/typescript.png",
+          "/assets/images/skills/javascript.png",
+          "/assets/images/skills/html.png",
+          "/assets/images/skills/css.png"
+        ]
+      },
+      "section-5": {
+        "title": "3. Certificates",
+        "text": "'Learning never exhausts the mind.' - Leonardo da Vinci",
+        "content": [
+          {
+            "company-image": "/assets/images/certificates/company-logos/aws.jpg",
+            "company-name": "AWS | Certified Cloud Practitioner",
+            "company-url": "aws.amazon.com",
+            "certificate-image": "/assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
+            "footer": "Issue Date: Jul 29, 2023"
+          },
+          {
+            "company-image": "/assets/images/certificates/company-logos/aws.jpg",
+            "company-name": "AWS | Certified Solutions Architect",
+            "company-url": "aws.amazon.com",
+            "certificate-image": "/assets/images/certificates/certificates/aws-certified-solutions-architect-associate.jpg",
+            "footer": "Issue Date: Nov 1, 2023"
+          },
+          {
+            "company-image": "/assets/images/certificates/company-logos/lpi.png",
+            "company-name": "LPI | Linux Essentials",
+            "company-url": "www.lpi.org",
+            "certificate-image": "/assets/images/certificates/certificates/linux-essentials.png",
+            "footer": "Issue Date: Nov 7, 2022"
+          }
+        ]
+      },
+      "section-6": {
+        "title": "4. Projects",
+        "text": "'Genius is one percent inspiration and ninety-nine percent perspiration.' - Seneca the Younger",
+        "content": [
+          {
+            "title": "College Builder",
+            "subtitle": "University Projects Platform",
+            "text": "The College Builder is a platform designed exclusively to host academic projects developed by a specific group of students from the University of Sorocaba in the Analysis and Systems Development course. Providing a dedicated digital space, the platform enables the owning group to efficiently showcase and share the achievements of their academic project.",
+            "project-image": "/assets/images/projects/collegebuilder.png",
+            "project-label": "Project",
+            "project-link": "https://collegebuilder.easyvirtual.net/",
+            "github-link": "https://github.com/College-Builder",
+            "project-release": "Nov.30.2023"
+          }
+        ]
+      },
+      "section-7": {
+        "title": "5. Fav. Repositories",
+        "text": "My preferred repositories and the ones I frequently utilize",
+        "content": [
+          {
+            "avatar-image": "/assets/images/fav-repositories/gabrielflores8227.jpeg",
+            "repository-link": "https://github.com/GabrielFlores8227/Neovim-Config",
+            "title": "Neovim Configurations and Unix Installation for Neovim",
+            "text": "This repository contains Neovim configuration files. Neovim is a powerful text editor built as a modernized version of Vim. With this configuration, I have customized Neovim to enhance my coding and text editing workflow.",
+            "about": ["neovim", "bash", "coc"]
+          },
+          {
+            "avatar-image": "/assets/images/fav-repositories/andresgongora.png",
+            "repository-link": "https://github.com/andresgongora/synth-shell",
+            "title": "Synth Shell | Boost your terminal, script by script",
+            "text": "synth-shell improves your terminal experience and productivity through a combination of small bash scripts.",
+            "about": [
+              "productivity",
+              "utility",
+              "terminal",
+              "eye-candy",
+              "maintenance",
+              "hackerman",
+              "system-administration"
+            ]
+          },
+          {
+            "avatar-image": "/assets/images/fav-repositories/junegunn.jpeg",
+            "repository-link": "https://github.com/junegunn/vim-plug",
+            "title": "Vim Plug | Minimalist Vim Plugin Manager",
+            "text": "Vim-Plug is a popular plugin manager for the Vim and Neovim text editors. It simplifies the process of installing, updating, and managing plugins within Vim-based environments.",
+            "about": ["vim", "neovim"]
+          }
+        ]
+      }
+    },
+    "footer": {
+      "title": "#Next",
+      "subtitle": "Contact Me",
+      "text": "I am open to opportunities, my inbox is always open. If you have a question or just want to say hello, I will be happy to respond to you!",
+      "whatsapp": "https://wa.me/5515997752074",
+      "mail": "mailto:jgdaflores184186@hotmail.com/"
+    }
+  },
+  "pt-BR": {
+    "header": {
+      "sections": [
+        { "name": "Sobre", "to": "#section-3", "special": false },
+        { "name": "Habilidades", "to": "#section-4", "special": false },
+        { "name": "Certificados", "to": "#section-5", "special": false },
+        { "name": "Projetos", "to": "#section-6", "special": false },
+        { "name": "Repositórios Fav.", "to": "#section-7", "special": false },
+        {
+          "name": "Currículo",
+          "to": "/assets/pdfs/resume.pdf",
+          "special": true
+        }
+      ]
+    },
+    "main": {
+      "section-1": {
+        "text-1": "Olá, meu nome é",
+        "text-2": "Gabriel Flores, eu sou um Dev Full-Stack",
+        "text-3": "Mais de 2 anos criando aplicações web e soluções baseadas em nuvem",
+        "phone-number": "5515997752074",
+        "phone-message": "Vamos conversar"
+      },
+      "section-2": [
+        {
+          "name": "Mail",
+          "image": "/assets/images/social-media/mail.png",
+          "to": "mailto:jgdaflores184186@hotmail.com/"
+        },
+        {
+          "name": "Whatsapp",
+          "image": "/assets/images/social-media/whatsapp.png",
+          "to": "https://wa.me/5515997752074"
+        },
+        {
+          "name": "Linkedin",
+          "image": "/assets/images/social-media/linkedin.png",
+          "to": "https://www.linkedin.com/in/gabriel-de-almeida-flores-5aba77256/"
+        },
+        {
+          "name": "Github",
+          "image": "/assets/images/social-media/github.png",
+          "to": "https://github.com/GabrielFlores8227/"
+        }
+      ],
+      "section-3": {
+        "title": "1. Sobre",
+        "text": "'Para mover o mundo, o primeiro passo é mover a si mesmo.' - Platão",
+        "content": [
+          {
+            "image": "/assets/images/about/gabriel-flores.png",
+            "title": "Sobre",
+            "text": "Meu nome é Gabriel Flores, sou de Araçoiaba da Serra e tenho 20 anos. Sou especialmente apaixonado por desenvolver e criar projetos, principalmente na área de TI. Possuo habilidades significativas em Back-End, mas estou sempre buscando novos desafios para expandir meu conhecimento.",
+            "show": "Mostrar mais",
+            "hide": "Mostrar menos"
+          },
+          {
+            "image": "/assets/images/about/uniso.png",
+            "title": "Faculdade",
+            "text": "Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Universidade de Sorocaba, e estou no quarto semestre. Iniciei meus estudos formais em 2022 e, desde então, tive a valiosa oportunidade de aprimorar minhas habilidades e capacidades por meio de trabalhos colaborativos com colegas de classe e a universidade em projetos focados em computação.",
+            "show": "Mostrar mais",
+            "hide": "Mostrar menos"
+          },
+          {
+            "image": "/assets/images/about/carrer.png",
+            "title": "Carreira",
+            "text": "Meu trabalho envolve o desenvolvimento e criação de aplicações robustas, estáveis e escaláveis para plataformas Web, Mobile e Desktop, utilizando minha criatividade e expertise na área. Eu utilizo ferramentas como Flutter & Dart, Node.js & Electron, e JavaScript & Html5 para o desenvolvimento de aplicações. Colaboro em projetos com foco no Back-End, incluindo diversos tipos de APIs (Node.js e Python), utilizando ferramentas como Computação em Nuvem (AWS) e Nginx.",
 
-						"show": "Mostrar mais",
-						"hide": "Mostrar menos"
-					}
-				]
-			},
-			"section-4": {
-				"title": "2. Habilidades",
-				"text": "Estudando e desenvolvendo meu conhecimento na área de desenvolvimento de software por mais de 2 anos",
-				"content": [
-					"/assets/images/skills/linux.png",
-					"/assets/images/skills/neovim.png",
-					"/assets/images/skills/bash.png",
-					"/assets/images/skills/nginx.png",
-					"/assets/images/skills/aws.png",
-					"/assets/images/skills/mysql.png",
-					"/assets/images/skills/python.png",
-					"/assets/images/skills/node.png",
-					"/assets/images/skills/typescript.png",
-					"/assets/images/skills/javascript.png",
-					"/assets/images/skills/html.png",
-					"/assets/images/skills/css.png"
-				]
-			},
-			"section-5": {
-				"title": "3. Certificados",
-				"text": "'A aprendizagem nunca esgota a mente.' - Leonardo da Vinci",
-				"content": [
-					{
-						"company-image": "/assets/images/certificates/company-logos/aws.jpg",
-						"company-name": "AWS | Certified Cloud Practitioner",
-						"company-url": "aws.amazon.com",
-						"certificate-image": "/assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
-						"footer": "Issue Date: Jul 29, 2023"
-					},
-					{
-						"company-image": "/assets/images/certificates/company-logos/aws.jpg",
-						"company-name": "AWS | Certified Solutions Architect",
-						"company-url": "aws.amazon.com",
-						"certificate-image": "/assets/images/certificates/certificates/aws-certified-solutions-architect-associate.jpg",
-						"footer": "Issue Date: Nov 1, 2023"
-					},
-					{
-						"company-image": "/assets/images/certificates/company-logos/lpi.png",
-						"company-name": "LPI | Linux Essentials",
-						"company-url": "www.lpi.org",
-						"certificate-image": "/assets/images/certificates/certificates/linux-essentials.png",
-						"footer": "Issue Date: Nov 7, 2022"
-					}
-				]
-			},
-			"section-6": {
-				"title": "4. Projetos",
-				"text": "'O gênio é um por cento de inspiração e noventa e nove por cento de transpiração.' - Sêneca, o Jovem",
-				"content": [
-					{
-						"title": "College Builder",
-						"subtitle": "Plataforma de Projetos Universitários",
-						"text": "O College Builder é uma plataforma projetada para hospedar exclusivamente projetos acadêmicos desenvolvidos por um grupo específico de alunos da Universidade de Sorocaba, no curso de Análise e Desenvolvimento de Sistemas. Oferecendo um espaço digital dedicado, a plataforma possibilita ao grupo proprietário apresentar e compartilhar de maneira eficiente as conquistas de seu projeto acadêmico",
-						"project-image": "/assets/images/projects/collegebuilder.png",
-						"project-label": "Projeto",
-						"project-link": "https://collegebuilder.easyvirtual.net/",
-						"github-link": "https://github.com/College-Builder",
-						"project-release": "30.Nov.2023"
-					}
-				]
-			},
-			"section-7": {
-				"title": "5. Repositórios Fav.",
-				"text": "Meus repositórios preferidos e os que eu frequentemente utilizo.",
-				"content": [
-					{
-						"avatar-image": "/assets/images/fav-repositories/gabrielflores8227.jpeg",
-						"repository-link": "https://github.com/GabrielFlores8227/Neovim-Config",
-						"title": "Configurações do Neovim ",
-						"text": "Este repositório contém arquivos de configuração para o Neovim. Neovim é um poderoso editor de texto construído como uma versão modernizada do Vim. Com esta configuração, eu personalizei o Neovim para aprimorar meu fluxo de trabalho de programação e edição de texto.",
+            "show": "Mostrar mais",
+            "hide": "Mostrar menos"
+          }
+        ]
+      },
+      "section-4": {
+        "title": "2. Habilidades",
+        "text": "Estudando e desenvolvendo meu conhecimento na área de desenvolvimento de software por mais de 2 anos",
+        "content": [
+          "/assets/images/skills/linux.png",
+          "/assets/images/skills/neovim.png",
+          "/assets/images/skills/bash.png",
+          "/assets/images/skills/nginx.png",
+          "/assets/images/skills/aws.png",
+          "/assets/images/skills/mysql.png",
+          "/assets/images/skills/python.png",
+          "/assets/images/skills/node.png",
+          "/assets/images/skills/typescript.png",
+          "/assets/images/skills/javascript.png",
+          "/assets/images/skills/html.png",
+          "/assets/images/skills/css.png"
+        ]
+      },
+      "section-5": {
+        "title": "3. Certificados",
+        "text": "'A aprendizagem nunca esgota a mente.' - Leonardo da Vinci",
+        "content": [
+          {
+            "company-image": "/assets/images/certificates/company-logos/aws.jpg",
+            "company-name": "AWS | Certified Cloud Practitioner",
+            "company-url": "aws.amazon.com",
+            "certificate-image": "/assets/images/certificates/certificates/aws-certified-cloud-practitioner.png",
+            "footer": "Issue Date: Jul 29, 2023"
+          },
+          {
+            "company-image": "/assets/images/certificates/company-logos/aws.jpg",
+            "company-name": "AWS | Certified Solutions Architect",
+            "company-url": "aws.amazon.com",
+            "certificate-image": "/assets/images/certificates/certificates/aws-certified-solutions-architect-associate.jpg",
+            "footer": "Issue Date: Nov 1, 2023"
+          },
+          {
+            "company-image": "/assets/images/certificates/company-logos/lpi.png",
+            "company-name": "LPI | Linux Essentials",
+            "company-url": "www.lpi.org",
+            "certificate-image": "/assets/images/certificates/certificates/linux-essentials.png",
+            "footer": "Issue Date: Nov 7, 2022"
+          }
+        ]
+      },
+      "section-6": {
+        "title": "4. Projetos",
+        "text": "'O gênio é um por cento de inspiração e noventa e nove por cento de transpiração.' - Sêneca, o Jovem",
+        "content": [
+          {
+            "title": "College Builder",
+            "subtitle": "Plataforma de Projetos Universitários",
+            "text": "O College Builder é uma plataforma projetada para hospedar exclusivamente projetos acadêmicos desenvolvidos por um grupo específico de alunos da Universidade de Sorocaba, no curso de Análise e Desenvolvimento de Sistemas. Oferecendo um espaço digital dedicado, a plataforma possibilita ao grupo proprietário apresentar e compartilhar de maneira eficiente as conquistas de seu projeto acadêmico",
+            "project-image": "/assets/images/projects/collegebuilder.png",
+            "project-label": "Projeto",
+            "project-link": "https://collegebuilder.easyvirtual.net/",
+            "github-link": "https://github.com/College-Builder",
+            "project-release": "30.Nov.2023"
+          }
+        ]
+      },
+      "section-7": {
+        "title": "5. Repositórios Fav.",
+        "text": "Meus repositórios preferidos e os que eu frequentemente utilizo.",
+        "content": [
+          {
+            "avatar-image": "/assets/images/fav-repositories/gabrielflores8227.jpeg",
+            "repository-link": "https://github.com/GabrielFlores8227/Neovim-Config",
+            "title": "Configurações do Neovim ",
+            "text": "Este repositório contém arquivos de configuração para o Neovim. Neovim é um poderoso editor de texto construído como uma versão modernizada do Vim. Com esta configuração, eu personalizei o Neovim para aprimorar meu fluxo de trabalho de programação e edição de texto.",
 
-						"about": ["neovim", "bash", "coc"]
-					},
-					{
-						"avatar-image": "/assets/images/fav-repositories/andresgongora.png",
-						"repository-link": "https://github.com/andresgongora/synth-shell",
-						"title": "Synth Shell | Aprimore seu terminal, script por script",
-						"text": "synth-shell melhora sua experiência e produtividade no terminal através de uma combinação de pequenos scripts bash.",
-						"about": [
-							"productivity",
-							"utility",
-							"terminal",
-							"eye-candy",
-							"maintenance",
-							"hackerman",
-							"system-administration"
-						]
-					},
-					{
-						"avatar-image": "/assets/images/fav-repositories/junegunn.jpeg",
-						"repository-link": "https://github.com/junegunn/vim-plug",
-						"title": "Vim Plug | Gerenciador Minimalista de Plugins para Vim",
-						"text": "Vim-Plug é um gerenciador de plugins popular para os editores de texto Vim e Neovim. Ele simplifica o processo de instalação, atualização e gerenciamento de plugins em ambientes baseados em Vim.",
-						"about": ["vim", "neovim"]
-					}
-				]
-			}
-		},
-		"footer": {
-			"title": "#Próximo",
-			"subtitle": "Entre em Contato",
-			"text": "Estou aberto a oportunidades, minha caixa de entrada está sempre disponível. Se você tem uma pergunta ou apenas quer dizer oi, ficarei feliz em responder a você!",
-			"whatsapp": "https://wa.me/5515997752074",
-			"mail": "mailto:jgdaflores184186@hotmail.com/"
-		}
-	}
+            "about": ["neovim", "bash", "coc"]
+          },
+          {
+            "avatar-image": "/assets/images/fav-repositories/andresgongora.png",
+            "repository-link": "https://github.com/andresgongora/synth-shell",
+            "title": "Synth Shell | Aprimore seu terminal, script por script",
+            "text": "synth-shell melhora sua experiência e produtividade no terminal através de uma combinação de pequenos scripts bash.",
+            "about": [
+              "productivity",
+              "utility",
+              "terminal",
+              "eye-candy",
+              "maintenance",
+              "hackerman",
+              "system-administration"
+            ]
+          },
+          {
+            "avatar-image": "/assets/images/fav-repositories/junegunn.jpeg",
+            "repository-link": "https://github.com/junegunn/vim-plug",
+            "title": "Vim Plug | Gerenciador Minimalista de Plugins para Vim",
+            "text": "Vim-Plug é um gerenciador de plugins popular para os editores de texto Vim e Neovim. Ele simplifica o processo de instalação, atualização e gerenciamento de plugins em ambientes baseados em Vim.",
+            "about": ["vim", "neovim"]
+          }
+        ]
+      }
+    },
+    "footer": {
+      "title": "#Próximo",
+      "subtitle": "Entre em Contato",
+      "text": "Estou aberto a oportunidades, minha caixa de entrada está sempre disponível. Se você tem uma pergunta ou apenas quer dizer oi, ficarei feliz em responder a você!",
+      "whatsapp": "https://wa.me/5515997752074",
+      "mail": "mailto:jgdaflores184186@hotmail.com/"
+    }
+  }
 }
